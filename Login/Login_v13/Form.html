@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V13</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #999999;">
+
+	<div class="limiter">
+		<div class="container-login100">
+
+			<!-- imagen de fondo -->
+			<div class="login100-more" style="background-image: url('images/bg-03.jpg');"></div>
+
+			<!-- posicion del form en el recuadro blanco-->
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-20 p-b-32">
+
+				<form method="post" class="login100-form validate-form">
+          <!--
+        	picture (profile)-->
+
+          <div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">Name</span>
+						<input class="input100" type="text" name="name">
+					</div>
+
+          <div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">Last Name</span>
+						<input class="input100" type="text" name="lastName">
+					</div>
+
+          <div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">Birthday</span>
+						<input class="input100" type="date" name="Birthday">
+					</div>
+
+          <div class="wrap-input100 validate-input" data-validate="Username is required">
+            <span class="label-input100">Documentation type / number</span>
+              <div>
+              <input type="radio" name="gender" value="dni"> D.N.I.<br>
+              <input type="radio" name="gender" value="passport"> Passport<br>
+              </div>
+            <input class="input100" type="text" name="documentation">
+          </div>
+
+          <div class="wrap-input100 validate-input">
+            <p class="label-input100">Phone</p>
+            <input class="input100" type="text" name="phone">
+          </div>
+
+          <div>
+            <span class="label-input100"> Sex </span><br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+          </div>
+
+          <div>
+            <span class="label-input100">Country</span>
+            <select class="" name="country">
+              <option value="1">Argertina</option>
+              <option value="2">Chile</option>
+              <option value="3">Bolivia</option>
+              <option value="4">Paraguay</option>
+              <option value="5">Uruguay</option>
+              <option value="6">Brasil</option>
+            </select>
+          </div>
+
+          <div>
+          	<br><span class="label-input100">Address</span>
+						<div class="wrap-input100">
+							<span class="label-input100">Street</span><br>
+							<input class="input20" type="text" name="street">
+						</div>
+						<div class="wrap-input100">
+            	<span class="label-input100">Number</span><br>
+            	<input class="input20" type="text" name="number">
+						</div>
+						<div class="wrap-input100">
+            	<span class="label-input100">Zip Code</span><br>
+            	<input class="input20" type="text" name="zip code">
+						</div>
+					</div>
+
+
+					<div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="username" placeholder="Username...">
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="text" name="pass" placeholder="*************">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Repeat Password is required">
+						<span class="label-input100">Repeat Password</span>
+						<input class="input100" type="text" name="repeat-pass" placeholder="*************">
+					</div>
+
+					<div class="wrap-input100 validate-input">
+            <p class="label-input100">Segurity Question</p>
+            <select class="" name="question">
+              <option value="1">What is the name of your first professor?</option>
+              <option value="2">What is your father's second name?</option>
+              <option value="3">what is your city of birth?</option>
+            </select>
+						<p class="label-input100">Respond</p>
+						<input class="input100" type="text" name="respond">
+          </div>
+
+					<div>
+            <span class="label-input100"> Profile Type </span><br>
+            <input type="radio" name="gender" value="professor"> Professor<br>
+            <input type="radio" name="gender" value="student"> Student<br>
+          </div>
+
+					<div>
+						<input type="file" onchange="previewFile()"><br>
+						<center>
+						<img align middle style="width: 100px; height: 100px" src="0_200.png" alt="">
+					</center>
+						<script>
+					   	function previewFile(){
+					       var preview = document.querySelector('img');
+					       var file    = document.querySelector('input[type=file]').files[0];
+					       var reader  = new FileReader();
+
+					       reader.onloadend = function () {
+					           preview.src = reader.result;
+					       }
+
+					       if (file) {
+					           reader.readAsDataURL(file);
+					       }
+					  	}
+					  </script>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Submit
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
