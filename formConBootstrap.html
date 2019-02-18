@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <!--<link rel="stylesheet" href="css/estilos.css">  -->
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+    <h1>Formulario de registro</h1>
+        <form action="registrar.php" method="post" class="form-register">
+<h2 class="form__titulo">CREA UNA CUENTA</h2>
+<div class="form-group" align="center">
+    <input type="text" name="nombre" placeholder="Nombre" class="form-control"> 
+    <input type="text" name="apellido" placeholder="Apellido" class="form-control" required>
+    <div class="col-xs-6 col-xs-offset-3">
+    <input type="email" name="correo" placeholder="Correo" class="form-control" required>
+    <input type="text" name="usuario" placeholder="Usuario" class="form-control" required> 
+    <div class="col-xs-6 col-xs-offset-3">
+    <input type="password" name="clave" placeholder="Contraseña" class="form-control" required>
+    <input type="text" name="telefono" placeholder="Teléfono" class="form-control" required>
+    
+    <div align="center" class="form-group">
+    <input type="submit" value="Registrar" class="btn btn-default" allign="center-block">
+    <p class="form__link">¿Ya tienes una cuenta? <a href="#"> Ingresa aquí</a></p>
+    </div>
+
+    
+       
+</div>
+</form>    
+    </body>
+
+
+</html>
