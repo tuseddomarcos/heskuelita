@@ -1,2 +1,186 @@
-<html>
+<!DOCTYPE html> 
+
+<html> 
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<title>Registration Form</title>
+
+</head>
+
+
+<body class=bg-secondary>
+
+<form>
+
+<div class="container bg-light">
+	<div class="jumbotron text-center bg-dark text-white">
+		<h1>Registration Form <br></h1>
+		<p>Complete the following information to complete your registration to the class</p> 
+			</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+		<label for="firstName">First name</label> 
+		<input class="form-control" id="firstName"  type="text" >
+ 			</div>
+
+<div class="col-md-2 mb-3">
+	<label for="lastName">Last name</label>
+	<input class="form-control" id="lastName" type="text">
+		</div>
+			</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+		<label for="date">Birthday</label>
+		<input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+			</div>
+				</div>    
+ 
+<div class="radio-inline">
+	Sex: <br>
+	 <label class="radio-inline">
+ 	<input type="radio" name="other" checked>Male
+ 		</label>
+ 	<label class="radio-inline">
+ 	<input type="radio" name="other">Female
+ 		</label>
+    <label class="radio-inline">
+    <input type="radio" name="other">Other
+    	</label>
+    		</div>
+  
+<div class="row">
+  <div class="col-md-2 mb-3">
+    <label for="sel1">Document Type:</label>
+    	<select class="form-control" id="sel1">
+        <option>DNI</option>
+        <option>CI</option>
+        <option>LE</option>
+        <option>Passport</option>
+      		</select>
+    			</div>
+     
+<div class="col-md-2 mb-3">
+	<label for="firstName">Identification </label> 
+	<input class="form-control" id="id" type="text" >
+		</div>
+			</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+		<label for="Phone">Phone</label> 
+		<input class="form-control" id="phonenumber" type="text" >
+			</div>
+				</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+    	<label for="sel1">Country:</label>
+      		<select class="form-control" id="selc">
+        		<option>Argentina</option>
+        		<option>USA</option>
+        		<option>Brazil</option>
+      				</select>
+    					</div>
+<div class="col-md-2 mb-3">
+	<label for="sel1">State:<br></label>
+		<select class="form-control" id="sels">
+			<option></option>
+				</select>
+					</div>
+<div class="col-md-2 mb-3">
+	<label for="sel1">City: <br></label>
+		<select class="form-control" id="selct">
+			<option></option>
+				</select>
+					</div>
+						</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+		<label for="Adress">Adress</label> 
+		<input class="form-control" id="Adressr"  type="text" >
+			</div>
+<div class="col-md-2 mb-3">
+	<label for="Zipnumber">Zip Code</label> 
+	<input class="form-control" id="Zipnumber"  type="text" >
+		</div>
+			</div>
+
+Introduce your mail and select your password <br> 
+	<div class="row">
+		<div class="col-md-2 mb-3">
+			<label for="inputEmail" class="sr-only"></label>
+			<input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+			<label for="inputPassword" class="sr-only"></label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password">
+				</div> 
+					</div>
+
+<div class="col-md-2 mb-3">
+	<label>Select a profile pic</label>
+		<div class="input-group">
+			<span class="input-group-btn">
+			<input type="file" id="imgInp">
+				</span>
+					</div>
+						</div>
+
+<div class="row">
+	<div class="col-md-2 mb-3">
+    	<label for="sel1">Select your class:</label>
+      		<select class="form-control" id="class">
+        		<option>Java</option>
+        		<option>PHP</option>
+        		<option>Phyton</option>
+      				</select>
+    					</div>
+    						</div>
+Select the period you will attend:<br>   						
+<div class="row">
+	<div class="col-md-2 mb-3">
+		<label for="sel1">Year:</label>
+			<select class="form-control" id="seldate">
+				<option>2019</option>
+					</select>
+						</div>
+<div class="col-md-3 mb-3">
+	<label for="sel1">Semester:<br></label>
+		<select class="form-control" id="sels">
+			<option>First(March-July)</option>
+			<option>Second(August-December)</option>
+				</select>
+					</div>
+						</div>
+
+<button type="button" class="btn btn-success btn-md">Submit</button>
+
+</form>
+
+</div>
+
+
+
+        
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
 </html>
+
