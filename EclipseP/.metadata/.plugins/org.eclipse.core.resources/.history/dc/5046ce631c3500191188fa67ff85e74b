@@ -1,8 +1,0 @@
-package com.capgemini.heskuelita.beans;
-
-public class Student extends Person {
-	
-	public Student() {
-		super(name, lastName, id);
-	}
-}
