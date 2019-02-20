@@ -3,8 +3,7 @@ package com.capgemini.heskuelita.beans;
 public class Person {
 	private String name;
 	private String lastName;
-	private int id;
-	private 
+	private int id; 
 		
 	public Person() {};
 		
