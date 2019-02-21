@@ -1,5 +1,5 @@
 package com.capgemini.heskuelita.beans;
-import java.util.Date;
+import java.util.*;
 
 public class Course {
 
@@ -8,6 +8,13 @@ public class Course {
 	private String description;
 	private Date duration;
 	private int limitPerson;
+	private List <Student> studentsList;
+	private List <String> studentsUserList;
+	
+	public void addStudent(Student student) {
+		studentsList.add(student);
+		studentsUserList.add(student.getUser());
+	}
 	
 	public int getId() {
 		return id;

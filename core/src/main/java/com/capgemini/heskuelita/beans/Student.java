@@ -5,6 +5,7 @@ public class Student extends Person{
 	private int id;
 	private String user;
 	private String pw;
+	
 	public int getId() {
 		return id;
 	}
