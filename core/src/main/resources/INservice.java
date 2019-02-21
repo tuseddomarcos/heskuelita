@@ -5,7 +5,7 @@ public interface INservice {
 	public void Update(Student student);
 	public void Delete(Student student);
 	
-	public void SinInClassroom(Student student);
+	public void SinInClassroom(Classroom classroom);
 	public Student Read(Classroom classroom);
 	public void Update(Classroom classroom);
 	public void Delete(Classroom classroom);
