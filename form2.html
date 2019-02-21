@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>Person Form </title>
+
+  <style> 
+  #grad1 {
+    height: 2000px;
+    background-image: linear-gradient(#ffccff, #ffffcc, #ccffe6);
+  }
+  </style>
+
+  <style>
+  .style1 {
+    background-color:  #e0e0d1;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 55px ;
+    width: 75%;
+  } 
+  </style>
+
+  <style>
+  .font {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+  } 
+  </style>
+
+  <style>
+  .style2 {
+    <!- background-color: tomato; ->
+    color: black;
+    margin: 0px;
+    padding: 20px;
+    height: 500%;
+    font-family: verdana;
+  } 
+  </style>
+</head>
+
+
+<body>
+  <div id="grad1">  
+    <header class=container> <h1>CursoName</h1> </header>
+    <div class="style1 container">                            <!–CONTEINER 1–> 
+      <h1 class="font"><b>Inscription Form </b></h1>
+      <form> 
+        <div method="" class="style2">                         <!CONT PERSONALES–> 
+          <h3 class="font"><b>Personal information</b></h3>
+          <div class="row">
+            <div class="style2 col-xs-6" >
+              <label for="first_name">First Name:</label>
+              <input type="text"  class="form-control" id="first_name" placeholder="Enter your first name" name="first_name" required>
+            </div>
+            <div class="style2 col-xs-6" >
+              <label for="last_name">Last Name:</label>
+              <input type="text"  class="form-control" id="last_name" placeholder="Enter your last name" name="last_name" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 col-xs-6" >
+              <label>Birthdate:</label>
+              <input type="date"  class="form-control" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="style2 col-xs-6" >
+              <label>Sex:</label><br>
+              <input type="radio" id="sex" name="sex" value="male"> Male 
+              <input type="radio" id="sex" name="sex" value="female"> Female    
+              <input type="radio" id="sex" name="sex" value="other"> Other
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 col-xs-6" >
+              <label for="document">Document type:</label> <br>
+              <input type="radio" id="document_type" name="document_type" value="dni"> DNI
+              <input type="radio" id="document_type" name="document_type" value="pasaporte"> Pasaporte 
+              <input type="radio" id="document_type" name="document_type" value="cedula">Cedula
+              <input type="radio" id="document_type" name="document_type" value="other"> Other 
+              <input type="text"  class="col-xs-6 form-control " id="document" placeholder="Enter your document" name="document" required>
+            </div>
+            <div class="style2 col-xs-6 " ><br>
+              <label for="document">In case of other specify document type:</label> <br>
+              <input type="text"  class="form-control " id="document_s" placeholder="In case of other specify document type" name="document_s">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 col-xs-6">
+              <label for="telephone">Telephone number:</label>
+              <input type="text" class="form-control"  name="telphone" pattern="[0-9]" maxlength="15"   placeholder="000-000-000"  required/>  
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 col-xs-4">
+              <label for="country">Country:</label>
+              <select class="form-control" id="country" placeholder="Enter your country " name="country" required>
+                <option value="">Country...</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="US">United States of America</option>
+              </select>
+            </div>
+            <div class="style2 col-xs-4">
+              <label for="state">State:</label>
+              <select class="form-control" id="state" placeholder="Enter your state " name="state"  required>
+                <option selected value="">State...</option>
+                <option value="None">None</option>
+                <option value="">-- AUSTRALIA --</option>
+                <option value="Australian Capital Territory">Australian Capital Territory</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="Queensland">Queensland</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Tasmania">Tasmania</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Western Australia">Western Australia</option>
+                <option value="">-- CANADA --</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                <option value="Northwest Territories">Northwest Territories</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Nunavut">Nunavut</option>
+                <option value="Ontario">Ontario</option>
+                <option value="">-- UNITED STATES --</option>
+                <option value="Arizona">Arizona</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Michigan">Michigan</option>
+                <option value="Minnesota">Minnesota</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New York">New York</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="Wisconsin">Wisconsin</option>
+              </select>
+            </div>
+            <div class="style2 col-xs-4">
+              <label for="city">City:</label>
+              <input type="text"  class="form-control" id="city" placeholder="Enter your city " name="city" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 col-xs-6">
+              <label for="street">Adress:</label>
+              <input type="text"  class="form-control" id="street" placeholder="Enter your street " name="street">
+            </div>
+            <div class="style2 col-xs-3">
+              <label for="number">Number:</label>
+              <input type="text"  class="form-control" id="number" placeholder="Street number " name="number">
+            </div>
+            <div class="style2 col-xs-3">
+              <label for="zip">ZipCode:</label>
+              <input type="text"  class="form-control" id="zip" maxlength="10"placeholder="Enter Zip Code " name="zip">
+            </div>
+          </div>
+        </div>                                                 <!CONT PERSONALES–> 
+
+
+        <div class="style2">                                   <!CONTEINER USUARIO>
+          <h3 class="font"><b>User Information</b></h3>
+          <div class="row">
+            <div class="style2 ">
+              <label for="pic">Upload a profile image:</label>
+              <input type="file"  name="pic" accept="image/*">
+            </div> 
+          </div>
+
+          <div class="row">
+            <div class="style2 ">
+              <label for="username">Username (your email):</label>
+              <input type="email" class="form-control" id="username" placeholder="Username (email)" name="username" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 " >
+              <label  for="password">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="style2 " >
+              <label for="password">Repeat password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Repeat password" name="pwd" required>
+            </div>
+          </div>
+          <br>
+          <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+        </div>                                                 <!CONTEINER USUARIO>
+      </form>
+    </div>                                                    <!–CONTEINER 1–> 
+  </div>                                                      <!–grad–> 
+</body>
+
+</html>
+
+
+
