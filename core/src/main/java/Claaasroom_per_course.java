@@ -1,4 +1,5 @@
-package com.capgemini.heskuelita.beans;
+
+
 
 public class Claaasroom_per_course {
 	private int id;

@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans;
+
 
 public class Person {
 	private String name, last_name, documentation_type, screet;

@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans;
+
 
 public class Course_per_professor {
 	private int id;

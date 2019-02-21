@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans;
+
 
 public class Course {
 	private int id, duration, limit_person;
