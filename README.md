@@ -1,2 +1,0 @@
-# heskuelita
-Learning Java!!!!
