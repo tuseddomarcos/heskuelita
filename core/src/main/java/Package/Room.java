@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans;
+package Package;
 
 public class Room {
 	private int idRoom;
@@ -7,7 +7,7 @@ public class Room {
 	public Room() {};
 	
 	public Room(int idRoom, int capacity) {
-		this.idRoom = (idRoom);
+		this.idRoom = idRoom;
 		this.capacity = capacity;
 	}
 

@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans;
+package Package;
 
 public interface INotification {
 
