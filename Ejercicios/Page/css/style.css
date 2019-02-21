@@ -5,7 +5,7 @@
 /* Referenciamos el body */
 body {
 	font-family: 'Roboto', sans-serif;		/* Fuente para el body */
-	background: url(img/background.jpg) no-repeat center center fixed;	/* Foto de fondo. center center para centrar */
+	background: url(../img/back2.jpg) no-repeat center center fixed;	/* Foto de fondo. center center para centrar */
 	background-size: cover;		/* Cubre todo el fondo */
 }
 /* Referenciamos la clase main-section */
