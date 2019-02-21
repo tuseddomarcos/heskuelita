@@ -3,10 +3,23 @@ package core.com.capgemini.heskuelita.beans;
 
 public class Person {
 	private String name, last_name, documentation_type, screet;
-	private int id,Identitication,phone,number, zip_code;
+	private int id,identitication,phone,number, zip_code;
 	private char sex;
-	public Person() {
-		
+
+	public Person(String name, String last_name, String documentation_type,
+			String screet,int id,int identitication,
+			int phone,int number, int zip_code,
+			char sex) {
+		this.id=id;
+		this.documentation_type=documentation_type;
+		this.identitication=identitication;
+		this.last_name=last_name;
+		this.name=name;
+		this.number=number;
+		this.phone=phone;
+		this.screet=screet;
+		this.sex=sex;
+		this.zip_code=zip_code;
 	}
 	public String getLast_name() {
 		return last_name;
@@ -50,12 +63,6 @@ public class Person {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	public int getIdentitication() {
-		return Identitication;
-	}
-	public void setIdentitication(int identitication) {
-		Identitication = identitication;
-	}
 	public int getPhone() {
 		return phone;
 	}
@@ -67,6 +74,12 @@ public class Person {
 	}
 	public void setSex(char sex) {
 		this.sex = sex;
+	}
+	public int getIdentitication() {
+		return identitication;
+	}
+	public void setIdentitication(int identitication) {
+		this.identitication = identitication;
 	}
 
 	
