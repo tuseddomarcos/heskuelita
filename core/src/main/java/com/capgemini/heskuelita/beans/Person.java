@@ -1,5 +1,4 @@
 package com.capgemini.heskuelita.beans;
-
 //import org.joda.time.LocalDate;
 
 public class Person {
