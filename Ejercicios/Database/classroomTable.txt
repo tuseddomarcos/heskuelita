@@ -1,0 +1,18 @@
+-- Table: public.classroom
+
+-- DROP TABLE public.classroom;
+
+CREATE TABLE public.classroom
+(
+    classroom_number integer NOT NULL,
+    address character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    building character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT classroom_pkey PRIMARY KEY (classroom_number)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.classroom
+    OWNER to postgres;

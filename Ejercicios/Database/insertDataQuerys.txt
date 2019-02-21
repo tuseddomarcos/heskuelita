@@ -1,0 +1,107 @@
+-- Insert course data
+INSERT INTO public.course (name_cou, description_cou, duration, limit_person, id_prof)
+VALUES
+	('OOP', 'Object Orient Programming', 15, 20, 2)
+	,('HTML', 'HTML basics', 10, 20, 1)
+	,('JS 1', 'Introduction to JavaScript', 15, 20, 3)
+	,('JS 2', 'Intermediate JavaScript', 15, 20, 3)
+	,('PHP', 'PHP', 20, 20, 2);
+
+
+
+-- Insert content data
+INSERT INTO public.content (name_cont, description_cont, course_id)
+VALUES
+	('Object Paradigm', 'Meaning and use', 1)
+	,('Object Modeling', 'Object, model, message and environment', 1)
+	,('Paradigm implement.', 'Class, attribute, data type, methods, constructors', 1)
+	,('Advanced', 'Abstract class, Static, Polimorfism, Interfaces', 1)
+	,('UML Introduction', 'Definition and use', 1)
+	,('Starting HTML', 'Language, version, history', 2)
+	,('Basic elements', 'Etiquetes: html, head, title, body', 2)
+	,('Attrib. and values', 'Attributes, sintax, implementation', 2)
+	,('Intro to JS', 'Basic concepts, pseudocode, sintax', 3)
+	,('Condicionals', 'Simple conditionals, switch, date', 3)
+	,('Arrays and loops', 'Arrays, loop intro, iterations', 3)
+	,('Function & events', 'Functions, sintax, events', 4)
+	,('JQuery & JS', 'Libraries, implementation, Lightbox', 4)
+	,('Introduction', 'Static vs Dinamic, PHP, XAMPP', 5)
+	,('PHP Programming', 'Comments, variables, Conditionals', 5)
+	,('Loops', 'For, while, break', 5);
+
+
+
+-- Insert professor data
+INSERT INTO public.professor (first_name, last_name, address, gender)
+VALUES
+	('Juan', 'Perez', 'Ramos Mejia 1202', 'M')
+	,('Maria', 'Barrientos', 'Burmeister 459', 'F')
+	,('Carlos', 'Fuentealba', 'Pablo Nogues 1465', 'M');
+
+
+
+-- Insert professor by course
+INSERT INTO professor_by_course (id_course, course_name, course_description, id_prof, professor)
+SELECT
+	c.id_cou
+	,c.name_cou
+	,c.description_cou
+	,p.id_prof
+	,concat(p.first_name, ' ', p.last_name)
+FROM
+	course c INNER JOIN professor p
+	ON c.id_prof = p.id_prof
+ORDER BY c.id_cou
+
+
+
+-- Insert classroom data
+INSERT INTO public.classroom (classroom_number, address, building)
+VALUES
+	('3010', 'Lavalle 648', 'EducacionIT')
+	,('3020', 'Lavalle 648', 'EducacionIT')
+	,('3030', 'Lavalle 648', 'EducacionIT')
+	,('3040', 'Lavalle 648', 'EducacionIT')
+	,('1', 'Roque Saenz Pena 615', 'Capgemini')
+	,('2', 'Roque Saenz Pena 615', 'Capgemini');
+
+
+
+-- Insert classroom by course data
+INSERT INTO public.classroom_by_course (course_id, course_name, classroom_number, classroom_address)
+VALUES
+	('2', 'HTML', '3010', 'Lavalle 648')
+	,('3', 'JS 1', '3020', 'Lavalle 648')
+	,('4', 'JS 2', '3030', 'Lavalle 648')
+	,('5', 'PHP', '3040', 'Lavalle 648')
+	,('1', 'OOP', '1', 'Roque Saenz Pena 615')
+	,('1', 'OOP', '2', 'Roque Saenz Pena 615');
+
+
+
+-- Insert academic offer data
+INSERT INTO academic_offer (course_id, course_name, classroom_number, classroom_address, professor)
+SELECT
+	cbc.course_id
+	,cbc.course_name
+	,cbc.classroom_number
+	,cbc.classroom_address
+	,pbc.professor
+FROM
+	classroom_by_course cbc INNER JOIN professor_by_course pbc
+	ON cbc.course_id = pbc.id_course
+ORDER BY cbc.course_id;
+
+UPDATE academic_offer
+SET
+	start_date = '03-18-2019'
+	,shift = 'Morning'
+	,days = 'Mon, Wed, Fri'
+WHERE classroom_number = '3010 ' OR classroom_number = '3020' OR classroom_number = '1';
+
+UPDATE academic_offer
+SET
+	start_date = '03-18-2019'
+	,shift = 'Afternoon'
+	,days = 'Mon, Wed, Fri'
+WHERE classroom_number = '3030 ' OR classroom_number = '3040' OR classroom_number = '2';

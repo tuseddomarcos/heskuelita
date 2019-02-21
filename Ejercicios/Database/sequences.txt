@@ -1,0 +1,57 @@
+-- SEQUENCE: public.content_seq
+-- DROP SEQUENCE public.content_seq;
+
+CREATE SEQUENCE public.content_seq;
+
+ALTER SEQUENCE public.content_seq
+    OWNER TO postgres;
+
+
+
+-- SEQUENCE: public.course_seq
+-- DROP SEQUENCE public.course_seq;
+
+CREATE SEQUENCE public.course_seq;
+
+ALTER SEQUENCE public.course_seq
+    OWNER TO postgres;
+
+
+
+-- SEQUENCE: public.professor_seq
+-- DROP SEQUENCE public.professor_seq;
+
+CREATE SEQUENCE public.professor_seq;
+
+ALTER SEQUENCE public.professor_seq
+    OWNER TO postgres;
+
+
+
+-- SEQUENCE: public.student_seq
+-- DROP SEQUENCE public.student_seq;
+
+CREATE SEQUENCE public.student_seq;
+
+ALTER SEQUENCE public.student_seq
+    OWNER TO postgres;
+
+
+
+-- SEQUENCE: public.classroom_by_course_seq
+-- DROP SEQUENCE public.classroom_by_course_seq;
+
+CREATE SEQUENCE public.classroom_by_course_seq;
+
+ALTER SEQUENCE public.classroom_by_course_seq
+    OWNER TO postgres;
+
+
+
+-- SEQUENCE: public.academic_offer_seq
+-- DROP SEQUENCE public.academic_offer_seq;
+
+CREATE SEQUENCE public.academic_offer_seq;
+
+ALTER SEQUENCE public.academic_offer_seq
+    OWNER TO postgres;

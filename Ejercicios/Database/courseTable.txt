@@ -1,0 +1,21 @@
+-- Table: public.course
+
+-- DROP TABLE public.course;
+
+CREATE TABLE public.course
+(
+    id_cou integer NOT NULL DEFAULT nextval('course_seq'::regclass),
+    name_cou character varying(48) COLLATE pg_catalog."default" NOT NULL,
+    description_cou character varying(512) COLLATE pg_catalog."default" NOT NULL,
+    duration integer NOT NULL,
+    limit_person integer NOT NULL,
+    id_prof integer NOT NULL,
+    CONSTRAINT "COURSE_pkey" PRIMARY KEY (id_cou)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.course
+    OWNER to postgres;

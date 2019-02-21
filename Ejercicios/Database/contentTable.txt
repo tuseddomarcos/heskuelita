@@ -1,0 +1,23 @@
+-- Table: public.content
+
+-- DROP TABLE public.content;
+
+CREATE TABLE public.content
+(
+    id_cont integer NOT NULL DEFAULT nextval('content_seq'::regclass),
+    name_cont character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    description_cont character varying(250) COLLATE pg_catalog."default" NOT NULL,
+    course_id integer NOT NULL,
+    CONSTRAINT content_pkey PRIMARY KEY (id_cont),
+    CONSTRAINT fk_course FOREIGN KEY (course_id)
+        REFERENCES public.course (id_cou) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.content
+    OWNER to postgres;

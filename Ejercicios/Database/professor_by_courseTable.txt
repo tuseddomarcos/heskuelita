@@ -1,0 +1,20 @@
+-- Table: public.professor_by_course
+
+-- DROP TABLE public.professor_by_course;
+
+CREATE TABLE public.professor_by_course
+(
+    id_course integer NOT NULL,
+    course_name character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    course_description character varying(250) COLLATE pg_catalog."default" NOT NULL,
+    id_prof integer NOT NULL,
+    professor text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT course_by_professor_pkey PRIMARY KEY (id_course)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.professor_by_course
+    OWNER to postgres;

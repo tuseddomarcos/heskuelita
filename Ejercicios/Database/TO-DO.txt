@@ -1,0 +1,2 @@
+Agregar genero y birthdate al estudiante en SQL
+Crear las pags con bootstrap

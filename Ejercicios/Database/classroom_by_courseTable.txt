@@ -1,0 +1,20 @@
+-- Table: public.classroom_by_course
+
+-- DROP TABLE public.classroom_by_course;
+
+CREATE TABLE public.classroom_by_course
+(
+    id_cbc integer NOT NULL DEFAULT nextval('classroom_by_course_seq'::regclass),
+    course_id integer NOT NULL,
+    course_name character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    classroom_number integer NOT NULL,
+    classroom_address character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT classroom_by_course_pkey PRIMARY KEY (id_cbc)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.classroom_by_course
+    OWNER to postgres;

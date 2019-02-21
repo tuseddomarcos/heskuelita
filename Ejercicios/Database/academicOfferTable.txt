@@ -1,0 +1,24 @@
+-- Table: public.academic_offer
+
+-- DROP TABLE public.academic_offer;
+
+CREATE TABLE public.academic_offer
+(
+    id_ao integer NOT NULL DEFAULT nextval('academic_offer_seq'::regclass),
+    course_id integer NOT NULL,
+    course_name character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    classroom_number integer NOT NULL,
+    classroom_address character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    professor text COLLATE pg_catalog."default" NOT NULL,
+    start_date date,
+    shift character varying(20) COLLATE pg_catalog."default",
+    days character varying(50) COLLATE pg_catalog."default",
+    CONSTRAINT academic_offer_pkey PRIMARY KEY (id_ao)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.academic_offer
+    OWNER to postgres;
