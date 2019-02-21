@@ -1,3 +1,4 @@
+package core.com.capgemini.heskuelita.beans;
 
 public interface INservice {
 	public void SinInStudent(Student student);
