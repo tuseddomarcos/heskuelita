@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Profesor</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h1>Formulario de registro </h1>
+	<form >
+		<label for="nombre">Nombre: <br>
+		<input type="text" name="nombre" id="nombre" required maxlength="30" class="form-control"><br></label><br>
+		<label for="apellido">Apellido: </label><br>
+		<input type="text" name="apellido" class="form-control"><br>
+		<label>Fecha de Nacimiento: </label><br>
+		<input type="date" name="Birthday" class="form-control"><br>
+		<label>Tipo de documento<br>
+			<label>DNI<input type="radio" name="DocumentationType" value="DNI"></label><label>Pasaporte<input type="radio" name="DocumentationType" value="Passport"></label></label><br>
+		<label>Nro de documento: <br>
+			<input type="number" name="identification" class="form-control"></label><br>
+		<label>Nro de tel/cel: <br>
+			<input type="tel" name="phone" class="form-control"></label><br>
+			<label>Sexo<br>
+			<label>M<input type="radio" name="Sex" value="man"></label><label>F<input type="radio" name="Sex" value="women"></label></label><br>
+			<label>Username(email): <br>
+				<input type="email" name="username" class="form-control"></label><br>
+			<label>Contraseña:<br>
+				<input type="password" name="password" class="form-control"></label><br>
+			
+		<input class="btn-success" type="submit" name="registrar" value="Registrar">
+
+	</form>
+</body>
+</html>
