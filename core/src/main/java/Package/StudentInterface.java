@@ -4,6 +4,5 @@ import Package.Student;
 public interface StudentInterface {
 
 	void add (Student s1);
-	
-	Student findByID (int id);
+		Student findByID (int id);
 }

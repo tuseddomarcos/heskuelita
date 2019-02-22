@@ -3,7 +3,7 @@ import Package.Teacher;
 
 public interface TeacherInterface {
 
-	void "Mostrar" (Teacher s1) {
-		Teacher 
+	void add (Teacher s1) {
+		System.out.println(Teacher.this.getStudents();) 
 	}
 }
