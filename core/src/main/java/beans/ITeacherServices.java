@@ -2,8 +2,16 @@ package beans;
 
 public interface ITeacherServices {
 	
-	public Teacher findByDNI (int dni) ;
+	public void addTeacher(Teacher aTeacher) ;
 	
-	public Teacher findByCourse (int course) ;
+	public void deleteTeacher(Teacher aTeacher) ;
+	
+	public void deleteTeacherByDNI(int dni) ;
+	
+	public Teacher findByDNI(int dni) ;
+	
+	public Teacher findByCourse(int course) ;
+	
+	public Teacher findByLastName(String aLastName) ;
 
 }
