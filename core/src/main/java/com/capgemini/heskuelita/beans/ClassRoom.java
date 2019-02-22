@@ -2,7 +2,7 @@
 package com.capgemini.heskuelita.beans;
 
 
-public class Course extends Component {
+public class ClassRoom extends Component {
 
 
     private String name;
@@ -10,12 +10,12 @@ public class Course extends Component {
     private String description;
 
 
-    public Course () {
+    public ClassRoom () {
 
         super ();
     }
 
-    public Course (Long id, String name, String description) {
+    public ClassRoom (Long id, String name, String description) {
 
         super (id);
 
@@ -25,7 +25,7 @@ public class Course extends Component {
 
 
     public String getName () {
-
+        
         return name;
     }
 

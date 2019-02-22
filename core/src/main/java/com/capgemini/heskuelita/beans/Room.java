@@ -21,4 +21,8 @@ public class Room {
 		this.capacity = capacity;
 	}
 	
+	@Override
+	public String toString () {
+		return name;
+	}
 }

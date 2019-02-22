@@ -2,18 +2,18 @@
 package com.capgemini.heskuelita.beans;
 
 
-public class Student extends Person {
+public class Teacher extends Person {
 
 
-    public Student () {
+    public Teacher () {
 
         super ();
     }
 
-    public Student (Long id, String name, String lastName,
+    public Teacher (Long id, String name, String lastName,
                     String email, int dni) {
 
         super (id, name, lastName,
-               email, dni);
+                email, dni);
     }
 }

@@ -1,40 +1,72 @@
-package com.capgemini.heskuelita.beans;
-import java.util.Date;
 
-public class Person {
+package com.capgemini.heskuelita.beans;
+
+
+public abstract class Person extends Component {
+
+	private String name;
 	
-	public String name;
-	public Date birthday;
-	public String email;
-	public char sex;
+	private String lastName;
 	
-	public char getSex() {
-		return sex;
+	private String email;
+	
+	private int dni;
+	
+	
+	public Person () {
+		
+		super ();
 	}
-	public void setSex(char sex) {
-		this.sex = sex;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public Date getBirthday() {
-		return birthday;
-	}
-	public void setBirthday(Date birthday) {
-		this.birthday = birthday;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
+
+	public Person (Long id, String name, String lastName,
+                   String email, int dni) {
+		
+		super (id);
+		
+		this.name     = name;
+		this.lastName = lastName;
 		this.email = email;
+		this.dni   = dni;
 	}
-	
-	@Override
-	public String toString() {
+
+
+	public String getName () {
+
 		return name;
+	}
+
+	public void setName (String name) {
+
+	    this.name = name;
+	}
+
+	public String getLastName () {
+
+	    return lastName;
+	}
+
+	public void setLastName (String lastName) {
+
+	    this.lastName = lastName;
+	}
+
+	public String getEmail () {
+
+	    return email;
+	}
+
+	public void setEmail (String email) {
+
+	    this.email = email;
+	}
+
+	public int getDni () {
+
+		return dni;
+	}
+
+	public void setDni (int dni) {
+
+		this.dni = dni;
 	}
 }
