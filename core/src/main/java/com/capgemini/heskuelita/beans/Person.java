@@ -1,72 +1,51 @@
-
 package com.capgemini.heskuelita.beans;
+import java.util.Date;
 
-
-public abstract class Person extends Component {
-
-	private String name;
+public abstract class Person {
 	
-	private String lastName;
+	public String name;
+	public Date birthday;
+	public String email;
+	public char sex;
 	
-	private String email;
-	
-	private int dni;
-	
-	
-	public Person () {
+	public Person() {
 		
-		super ();
 	}
-
-	public Person (Long id, String name, String lastName,
-                   String email, int dni) {
-		
-		super (id);
-		
-		this.name     = name;
-		this.lastName = lastName;
-		this.email = email;
-		this.dni   = dni;
+	
+	public Person(String name, Date birthday, String email, char sex) {
+		this.name=name;
+		this.birthday=birthday;
+		this.email=email;
+		this.sex=sex;
 	}
-
-
-	public String getName () {
-
+	
+	public char getSex() {
+		return sex;
+	}
+	public void setSex(char sex) {
+		this.sex = sex;
+	}
+	public String getName() {
 		return name;
 	}
-
-	public void setName (String name) {
-
-	    this.name = name;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public String getLastName () {
-
-	    return lastName;
+	public Date getBirthday() {
+		return birthday;
 	}
-
-	public void setLastName (String lastName) {
-
-	    this.lastName = lastName;
+	public void setBirthday(Date birthday) {
+		this.birthday = birthday;
 	}
-
-	public String getEmail () {
-
-	    return email;
+	public String getEmail() {
+		return email;
 	}
-
-	public void setEmail (String email) {
-
-	    this.email = email;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-
-	public int getDni () {
-
-		return dni;
-	}
-
-	public void setDni (int dni) {
-
-		this.dni = dni;
+	
+	@Override
+	public String toString() {
+		return name;
 	}
 }

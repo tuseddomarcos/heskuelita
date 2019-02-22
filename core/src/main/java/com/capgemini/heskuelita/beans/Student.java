@@ -1,19 +1,32 @@
-
 package com.capgemini.heskuelita.beans;
 
-
-public class Student extends Person {
-
-
-    public Student () {
-
-        super ();
-    }
-
-    public Student (Long id, String name, String lastName,
-                    String email, int dni) {
-
-        super (id, name, lastName,
-               email, dni);
-    }
+public class Student extends Person{
+	
+	private int id;
+	private String user;
+	private String pw;
+	
+	public Student() {
+		super();
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getUser() {
+		return user;
+	}
+	public void setUser(String user) {
+		this.user = user;
+	}
+	public String getPw() {
+		return pw;
+	}
+	public void setPw(String pw) {
+		this.pw = pw;
+	}	
+	
 }

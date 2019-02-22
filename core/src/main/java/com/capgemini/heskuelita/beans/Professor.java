@@ -5,6 +5,14 @@ public class Professor extends Person{
 	private String title;
 	private int id;
 	
+	public Professor() {
+		super();
+	}
+	 //Corregir
+	public Professor(String title, int id) {
+		super();
+	}
+	
 	public String getName() {
 		return name;
 	}
