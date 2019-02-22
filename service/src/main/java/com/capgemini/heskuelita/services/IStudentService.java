@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.service;
+package com.capgemini.heskuelita.services;
 
 import java.util.Collection;
 import com.capgemini.heskuelita.beans.Student;

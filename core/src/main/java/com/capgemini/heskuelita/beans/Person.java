@@ -12,7 +12,7 @@ public class Person {
 	private char gender;
     private String securityQuestion;
 	private String securityAnswer;
-
+	
 	//si es que usamos joda time con maven
 	//private LocalDate birthdate; 
 	
