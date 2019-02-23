@@ -2,18 +2,14 @@ package com.capgemini.heskuelita.beans;
 
 import java.util.HashMap;
 import java.util.Map;
-//import org.joda.time.LocalTime;
 
-public class Course {
+public class Course extends Component{
 
 	private String name;
 	private String description;
 	private int duration;
 	private int limitPerson;
 	private Map<String, String> content= new HashMap<String, String>();
-	
-	//si es que usamos joda time con maven
-	//private Collection<LocalTime> offers;
 	
 	public Course(String name, String description, int duration, int limitPerson){
 		this.name= name;

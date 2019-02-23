@@ -1,7 +1,7 @@
 package com.capgemini.heskuelita.beans;
 //import org.joda.time.LocalDate;
 
-public class Person {
+public class Person extends Component{
 
 	private String firstName;
 	private String lastName;

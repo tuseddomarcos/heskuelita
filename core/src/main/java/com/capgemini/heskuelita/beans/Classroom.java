@@ -1,6 +1,6 @@
 package com.capgemini.heskuelita.beans;
 
-public class Classroom {
+public class Classroom extends Component{
 	
 	private int classroomNumber;
 	private int floor;
