@@ -1,7 +1,7 @@
 package core.com.capgemini.heskuelita.beans;
 
 
-public class Person {
+public abstract class Person {
 	private String name, last_name, documentation_type, screet;
 	private int id,identitication,phone,number, zip_code;
 	private char sex;
