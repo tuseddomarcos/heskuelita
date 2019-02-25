@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+<!--===============================================================================================-->
+	<title>Sing Up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/css-style.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #33C4FF;">
+	<div class="limiter">
+		<div class="container-login100" >
+			<div class="wrap-login100">	
+				<form method="post" class="login100-form validate-form" style="background: #A5D8E6" >
+					<span class="login100-form-title p-b-43" >
+						User Information
+					</span>
+<!--==================================================Faltan validar todos los datos del formulario-->					
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="FirstName" >
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >First Name</span>
+					</div>
+<!--===============================================================================================-->					
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="LastName">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Last Name</span>
+					</div>
+<!--===============================================================================================-->
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="email" >
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Email</span>
+					</div>
+<!--===============================================================================================-->						
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="Phone">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Phone</span>
+					</div>
+<!--===============================================================================================-->
+					<div class="wrap-input100 validate-input">
+						<legend class="col-form-label col-sm-4 pt-10">Sex</legend>
+    		  				<div class="col-sm-3">
+     		 		 			<div class="form-check">
+       		 		  				<input class="form-check-input" type="radio" name="Sexo" id="gridRadios1" value="option1" checked>
+       		   						<label class="form-check-label" for="gridRadios1">Male</label>
+       							</div>
+       							<div class="form-check">
+        							 <input class="form-check-input" type="radio" name="Sexo" id="gridRadios2" value="option2"> <label class="form-check-label" for="gridRadios2">Female</label>
+    		   					</div>
+    		 				</div>
+					</div>
+<!--===============================================================================================-->
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="Birthday" >
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Birthday (dd/mm/yyyy)</span>
+					</div>
+<!--===============================================================================================-->
+					<select id="DocType" class="form-control">
+			        	<option selected>Documentation</option>
+			        	<option>DNI</option>
+			        	<option>PAssport</option>
+			        </select>
+<!--===============================================================================================-->
+			        <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="IDNumber">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Documentation Number</span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Password</span>
+					</div>
+<!--===============================================================================================-->
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="password" name="Confirmpass">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Confirm Password</span>
+					</div>
+<!--===============================================================================================-->
+					<select id="SecQuest" class="form-control">
+			        	<option selected>Security Question</option>
+			        	<option>What is the name of your best friend?</option>
+			        	<option>What was the name of your first teacher?</option>
+			         	<option>What is the first name of your favourite uncle?</option>
+			        </select>
+<!--===============================================================================================-->
+			        <div class="wrap-input100 validate-input" data-validate="Anser">
+						<input class="input100" type="password" name="Answer">
+						<span class="focus-input100"></span>
+						<span class="label-input100" style="color: black" >Answer</span>
+					</div>				
+<!--===============================================================================================-->
+					<div class="container-login100-form-btn">
+						<button onclick="location.href='index.html'" type="button" class="btn btn-outline-secondary" style="margin: 25px">Go Back </button>
+						<button type="button" class="btn btn-outline-primary" style="margin: 25px">Sign Up </button>  
+					</div>
+				</form>
+<!--===============================================================================================-->
+				<div class="login100-more" style="background-image: url('images/fondo1.jpg');">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
