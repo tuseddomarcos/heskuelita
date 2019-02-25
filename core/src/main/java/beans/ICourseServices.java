@@ -1,13 +1,14 @@
 package beans;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public interface ICourseServices {
 	
 	public Course findByNumberClassroom(int numberClassroom) ;
 	
-	public ArrayList filterByADay(String aDay) ;
+	public ArrayList filterByADate(LocalDate aDate) ;
 	
-	public ArrayList filterByAnHour(int anHour) ;
+	public ArrayList filterByAnHour(LocalDate aTime) ;
 	
 }

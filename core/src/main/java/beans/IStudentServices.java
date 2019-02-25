@@ -1,15 +1,15 @@
 package beans;
 
+import java.util.ArrayList;
+
 public interface IStudentServices {
 	
 	public void addUser(Student aStudent) ;
 	
 	public void deleteUser(Student aStudent) ;
 	
-	public void deleteUserByDNI(int dni) ;
-	
 	public Student findUserByDNI(int dni) ;
 	
-	public Student findUserByLastName(String aLastName) ;
+	public ArrayList<Student> findUsersByLastName(String aLastName) ;
 	
 }

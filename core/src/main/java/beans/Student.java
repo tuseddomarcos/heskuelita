@@ -16,4 +16,12 @@ public class Student extends Person{
 				password, sequerityQuestion);
 		
 	}
+
+	public int getDNI() {
+		return this.identification ;
+	}
+
+	public String getLastname() {
+		return this.lastName ;
+	}
 }

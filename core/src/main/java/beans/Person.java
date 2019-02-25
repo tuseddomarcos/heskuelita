@@ -4,20 +4,20 @@ import java.sql.Date;
 
 public class Person {
 	
-	private int id;
-	private String name;
-	private String lastName;
-	private int documentationType;
-	private Date birthday;
-	private int identification;
-	private int telephone;
-	private String sex;
-	private String country;
-	private String state;
-	private String city;
-	private String user_name;
-	private int password;
-	private String sequerityQuestion;
+	protected int id;
+	protected String name;
+	protected String lastName;
+	protected int documentationType;
+	protected Date birthday;
+	protected int identification;
+	protected int telephone;
+	protected String sex;
+	protected String country;
+	protected String state;
+	protected String city;
+	protected String user_name;
+	protected int password;
+	protected String sequerityQuestion;
 
 	public Person(int id, String name, String lastName, int documentationType, Date birthday,
 			int identification, int telephone, String sex, String country, String state,

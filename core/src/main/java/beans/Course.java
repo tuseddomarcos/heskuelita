@@ -1,6 +1,6 @@
 package beans;
 
-public class Course {
+public class Course extends Component{
 	
 	private int id;
 	private String name;
@@ -14,6 +14,11 @@ public class Course {
 		this.description = description;
 		this.duracion = duracion;
 		this.limit_person = limit_person;
+	}
+	
+	
+	public int getNumber() {
+		return this.id ;
 	}
 
 }

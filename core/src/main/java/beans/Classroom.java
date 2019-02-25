@@ -12,6 +12,5 @@ public class Classroom {
 		this.name = name;
 		this.capacity = capacity;
 		this.number = number ;
-		
 	}
 }
