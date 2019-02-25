@@ -2,12 +2,30 @@ package core.com.capgemini.heskuelita.beans;
 
 public abstract class Component {
 
-	private long id;
-	
-	public Component() {
-		
-		super();
-	}
-	
-	public
+
+    private Long id;
+
+
+    public Component () {
+
+        super ();
+    }
+
+    public Component (Long id) {
+
+        super ();
+
+        this.id = id;
+    }
+
+
+    public Long getId () {
+
+        return id;
+    }
+
+    public void setId (Long id) {
+
+        this.id = id;
+    }
 }
