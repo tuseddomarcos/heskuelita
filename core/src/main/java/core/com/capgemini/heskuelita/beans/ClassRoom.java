@@ -1,5 +1,5 @@
 package core.com.capgemini.heskuelita.beans;
 
-public class Room {
+public class ClassRoom {
 
 }
