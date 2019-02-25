@@ -1,7 +1,7 @@
 <!--
    - Name: pom.xml
    - Description: Maven setup file.
-   - Author: Raul PeÃ±a (raul.pena@gmail.com)
+   - Author: Raul Peña (raul.pena@gmail.com)
    -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -18,11 +18,6 @@
     <name>heskuelita</name>
     <description>Java Learning Project.</description>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-    </properties>
-    
     <modules>
         <module>core</module>
         <module>service</module>

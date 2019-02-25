@@ -1,46 +1,58 @@
-
 package com.capgemini.heskuelita.beans;
+import java.util.*;
 
+public class Course {
 
-public class Course extends Component {
+	private int id;
+	private String name;
+	private String description;
+	private Date duration;
+	private int limitPerson;
+	private List <Student> studentsList;
+	private List <String> studentsUserList;
+	
+	public void addStudent(Student student) {
+		studentsList.add(student);
+		studentsUserList.add(student.getUser());
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Date getDuration() {
+		return duration;
+	}
+	public void setDuration(Date duration) {
+		this.duration = duration;
+	}
+	public int getLimitPerson() {
+		return limitPerson;
+	}
+	public void setLimitPerson(int limitPerson) {
+		this.limitPerson = limitPerson;
+	}
 
-
-    private String name;
-
-    private String description;
-
-
-    public Course () {
-
-        super ();
-    }
-
-    public Course (Long id, String name, String description) {
-
-        super (id);
-
-        this.name = name;
-        this.description = description;
-    }
-
-
-    public String getName () {
-
-        return name;
-    }
-
-    public void setName (String name) {
-
-        this.name = name;
-    }
-
-    public String getDescription () {
-
-        return description;
-    }
-
-    public void setDescription (String description) {
-
-        this.description = description;
-    }
+	@Override
+	public String toString() {
+		return name;
+	}	
+	
+	public int countStudentsInscripted() {
+		return studentsList.size();
+	}
 }
