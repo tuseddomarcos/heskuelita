@@ -1,27 +1,21 @@
 package com.capgemini.heskuelita.beans;
 
-public class User {
+public class User extends IDComponent {
 
-	private int user_ID;
+	
 	private String user_pass;
 	private String user_email;
-	private int stu_ID;
+	private Student student;
 	
-	public User(int pID, String pPass, String pEmail, int pStu_ID) {
+	public User () {super();}
+	
+	public User(Long pID, String pPass, String pEmail, Student pStudent) {
 		
-		this.user_ID=pID;
+		super (pID);
 		this.user_pass=pPass;
 		this.user_email=pEmail;
-		this.stu_ID=pStu_ID;
+		this.student=pStudent;
 		
-	}
-
-	public int getUser_ID() {
-		return user_ID;
-	}
-
-	public void setUser_ID(int user_ID) {
-		this.user_ID = user_ID;
 	}
 
 	public String getUser_pass() {
@@ -40,14 +34,14 @@ public class User {
 		this.user_email = user_email;
 	}
 
-	public int getStu_ID() {
-		return stu_ID;
+	public Student getStudent() {
+		return student;
 	}
 
-	public void setStu_ID(int stu_ID) {
-		this.stu_ID = stu_ID;
+	public void setStudent(Student student) {
+		this.student = student;
 	}
+	
+	
 
-	
-	
 }

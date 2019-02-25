@@ -1,35 +1,23 @@
 package com.capgemini.heskuelita.beans;
 
-public class Person {
+public abstract class Person extends IDComponent {
 
-	protected int ID;
+	
 	protected String name;
 	protected String lastName;
 
 	
 	
-public Person() { ;}	
+public Person() { super (); }	
 
 
 
-public Person(int pID, String pName, String plastName) {
+public Person(Long pID, String pName, String plastName) {
 
-	this.ID=pID;
+	super(pID);
 	this.name=pName;
 	this.lastName=plastName;
 	
-}
-
-
-
-public int getID() {
-	return ID;
-}
-
-
-
-public void setID(int iD) {
-	ID = iD;
 }
 
 
