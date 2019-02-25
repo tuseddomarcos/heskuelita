@@ -2,11 +2,15 @@ package com.capgemini.heskuelita.beans;
 
 import java.util.Collection;
 import java.util.HashSet;
+import org.apache.log4j.*;
 
 public class App {
 
 	public static void main(String[] args) {
 
+		
+		
+		
 		Collection<String> prueba= new HashSet<String>();
 		
 		prueba.add("Rick");
@@ -23,11 +27,10 @@ public class App {
 		for (String e: prueba){
 			System.out.println(e);
 		}
-		
-		
-		
-		
+			
 		
 	}
+	
+	
 
 }
