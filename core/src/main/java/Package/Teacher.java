@@ -1,16 +1,12 @@
 package Package;
-import java.util.List;
+import java.util.*;
+import Package.Student;
 
 public class Teacher extends Person {
-	private String[] students;
-	List<int>idStudents = new List;
+	List<Student> students = new List<Student> ();
 	
-	public Teacher(String name, String lastName, int id, String[] students) {
-		super(name, lastName, id);
+	public Teacher(int id, char firstName, char lastName, char documentation, int identification, char email) {
+		super(id, firstName, lastName, documentation, identification, email);
 		this.students = students;
-	}
-	
-	public String getStudents() {
-		return students[];
 	}
 }

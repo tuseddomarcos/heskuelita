@@ -1,0 +1,8 @@
+-- SEQUENCE: public.teacher_seq
+
+-- DROP SEQUENCE public.teacher_seq;
+
+CREATE SEQUENCE public.teacher_seq;
+
+ALTER SEQUENCE public.teacher_seq
+    OWNER TO postgres;

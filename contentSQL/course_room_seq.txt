@@ -1,0 +1,8 @@
+-- SEQUENCE: public.course_room_seq
+
+-- DROP SEQUENCE public.course_room_seq;
+
+CREATE SEQUENCE public.course_room_seq;
+
+ALTER SEQUENCE public.course_room_seq
+    OWNER TO postgres;
