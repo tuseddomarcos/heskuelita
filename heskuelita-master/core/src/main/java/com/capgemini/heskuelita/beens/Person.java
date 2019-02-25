@@ -2,7 +2,7 @@ package com.capgemini.heskuelita.beens;
 
 import java.util.*;
 
-public class Person {
+public abstract class Person {
 
 	private String name;
 	private String last_name;
@@ -23,7 +23,7 @@ public class Person {
 	
 	//Getters and Setters
 
-	public String getName() {
+	public String getName() { 
 		return name;
 	}
 
