@@ -1,7 +1,7 @@
 package com.capgemini.heskuelita.beans;
 import java.util.Date;
 
-public abstract class Person {
+public abstract class Person extends IDGenerator{
 	
 	public String name;
 	public Date birthday;
@@ -9,10 +9,11 @@ public abstract class Person {
 	public char sex;
 	
 	public Person() {
-		
+		super();
 	}
 	
-	public Person(String name, Date birthday, String email, char sex) {
+	public Person(String name, Date birthday, String email, char sex, int id) {
+		this.id=id;
 		this.name=name;
 		this.birthday=birthday;
 		this.email=email;

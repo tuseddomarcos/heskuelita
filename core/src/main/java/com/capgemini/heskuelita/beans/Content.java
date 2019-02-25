@@ -1,18 +1,11 @@
 package com.capgemini.heskuelita.beans;
 
-public class Content {
+public class Content extends IDGenerator{
 
-	private int id;
 	private String content;
 	private String courseName;
 	private int courseId;
-	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public String getContent() {
 		return content;
 	}

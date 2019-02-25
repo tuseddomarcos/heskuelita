@@ -1,9 +1,8 @@
 package com.capgemini.heskuelita.beans;
 import java.util.*;
 
-public class Course {
+public class Course extends IDGenerator {
 
-	private int id;
 	private String name;
 	private String description;
 	private Date duration;
@@ -16,12 +15,6 @@ public class Course {
 		studentsUserList.add(student.getUser());
 	}
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
 	public String getName() {
 		return name;
 	}

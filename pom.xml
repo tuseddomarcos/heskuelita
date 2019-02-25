@@ -1,7 +1,7 @@
 <!--
    - Name: pom.xml
    - Description: Maven setup file.
-   - Author: Raul Peña (raul.pena@gmail.com)
+   - Author: Raul Peï¿½a (raul.pena@gmail.com)
    -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -17,6 +17,17 @@
     <packaging>pom</packaging>
     <name>heskuelita</name>
     <description>Java Learning Project.</description>
+    
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <dependencies>
+	<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+	</dependency>
+	</dependencies>
+    
+    
 
     <modules>
         <module>core</module>
