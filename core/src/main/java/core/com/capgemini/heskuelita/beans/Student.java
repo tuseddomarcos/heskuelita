@@ -8,6 +8,11 @@ public class Student extends Person {
 		this.setUserName(userName);
 		this.setPassword(password);
 	}
+	
+	public Student() {
+		super();
+	}
+
 	public String getPassword() {
 		return password;
 	}

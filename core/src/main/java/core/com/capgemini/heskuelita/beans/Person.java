@@ -2,7 +2,7 @@ package core.com.capgemini.heskuelita.beans;
 
 
 public abstract class Person {
-	private String name, last_name, documentation_type, screet;
+	private String name, last_name, documentation_type, screet,email;
 	private int id,identitication,phone,number, zip_code;
 	private char sex;
 
@@ -20,6 +20,14 @@ public abstract class Person {
 		this.screet=screet;
 		this.sex=sex;
 		this.zip_code=zip_code;
+	}
+	public Person (String name,String email, int number) {
+		this.name=name;
+		this.number=number;
+		this.setEmail(email);
+	}
+	public Person() {
+		this.id+=1;
 	}
 	public String getLast_name() {
 		return last_name;
@@ -80,6 +88,12 @@ public abstract class Person {
 	}
 	public void setIdentitication(int identitication) {
 		this.identitication = identitication;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	
