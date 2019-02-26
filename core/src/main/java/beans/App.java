@@ -45,20 +45,21 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 
 	@Override
 	public Student findUserByDNI(int dni) {
+		
 		return this.students.stream().filter(s -> s.getDNI() == dni )
 				    .findFirst().get();
 	}
 
 	@Override
 	public ArrayList<Student> findUsersByLastName(String aLastName) {
-
+		
 		return (ArrayList<Student>) this.students.stream().filter(offer -> offer.getLastname()
 				== aLastName).collect(Collectors.toList());
 	}
 
 	@Override
 	public void addTeacher(Teacher aTeacher) {
-		this.teachers.add(aTeacher) ;	
+		this.teachers.add(aTeacher) ;		
 	}
 
 	@Override
@@ -68,26 +69,32 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 
 	@Override
 	public void deleteTeacherByDNI(int dni) {
-		// TODO Auto-generated method stub
 		
+		Teacher teacher = this.teachers.stream().filter(t -> t.getIdentification()
+				== dni).findFirst().get();
+		
+		this.teachers.remove(teacher) ;	
 	}
 
 	@Override
 	public Teacher findByDNI(int dni) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return this.teachers.stream().filter(t -> t.getIdentification()
+				== dni).findFirst().get();
 	}
 
 	@Override
-	public Teacher findByCourse(int course) {
-		// TODO Auto-generated method stub
-		return null;
+	public Teacher findByCourse(int course_id) {
+		
+		return this.offers.stream().filter(o -> o.getCourse().getId()
+				== course_id).findFirst().get().getTeacher() ;
 	}
 
 	@Override
-	public Teacher findByLastName(String aLastName) {
-		// TODO Auto-generated method stub
-		return null;
+	public ArrayList<Teacher> findByLastName(String aLastName) {
+		
+		return (ArrayList<Teacher>) this.teachers.stream().filter(t -> t.getLastname()
+				== aLastName).collect(Collectors.toList());
 	}
 	
 	

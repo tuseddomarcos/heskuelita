@@ -1,5 +1,7 @@
 package beans;
 
+import java.util.ArrayList;
+
 public interface ITeacherServices {
 	
 	public void addTeacher(Teacher aTeacher) ;
@@ -12,6 +14,6 @@ public interface ITeacherServices {
 	
 	public Teacher findByCourse(int course) ;
 	
-	public Teacher findByLastName(String aLastName) ;
+	public ArrayList<Teacher> findByLastName(String aLastName) ;
 
 }
