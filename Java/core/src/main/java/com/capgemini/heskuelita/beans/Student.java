@@ -7,8 +7,8 @@ public class Student extends Person {
 	private int idStu, phone;
 	private String address;
 	
-	public Student(int idStu, String name, String lastName, int dni, Date birthdate, int phone, String address, char gender) {
-		super(name, lastName, dni, birthdate, gender);
+	public Student(int idStu, String name, String lastName, int dni, /*Date birthdate,*/ int phone, String address, char gender) {
+		super(name, lastName, dni, /*birthdate,*/ gender);
 		
 		this.idStu = idStu;
 		this.phone = phone;

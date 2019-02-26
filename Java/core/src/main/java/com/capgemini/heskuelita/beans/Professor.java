@@ -7,8 +7,8 @@ public class Professor extends Person {
 	private int idProf;
 	private String address;
 	
-	public Professor(int idProf, String name, String lastName, int dni, Date birthdate, String address, char gender) {
-		super(name, lastName, dni, birthdate, gender);
+	public Professor(int idProf, String name, String lastName, int dni, /*Date birthdate,*/ String address, char gender) {
+		super(name, lastName, dni, /*birthdate,*/ gender);
 		
 		this.idProf = idProf;
 		this.address = address;
