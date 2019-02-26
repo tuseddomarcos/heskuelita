@@ -3,13 +3,17 @@ package com.capgemini.heskuelita.beans;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class AcademicOffer {
+public class AcademicOffer extends Component {
 	
 	private Course course;
 	private Teacher teacher;
 	private Classroom classroom;
 	private LocalDate date;
 	private LocalTime time;
+	
+	public AcademicOffer () {
+		super ();
+    }
 	
 	public AcademicOffer(Course course, Teacher teacher, Classroom classroom,  LocalDate date, LocalTime time) {
 		this.course = course;
@@ -19,9 +23,6 @@ public class AcademicOffer {
 		this.time = time;
 	}
 	
-	public AcademicOffer(){
-		
-	}
 
 	public Course getCourse() {
 		return course;

@@ -1,33 +1,25 @@
 package com.capgemini.heskuelita.beans;
 
-public class Course {
-	private int idCourse;
+public class Course extends Component {
+	
 	private String nameCourse;
 	private String description;
 	private short duration;
 	private short limitPerson;
 	
+	public Course() {
+		super();
+	}
 	
-	public Course(int idCourse, String nameCourse, String description, short duration, short limitPerson ) {
-		this.idCourse = idCourse;
+	public Course(long idCourse, String nameCourse, String description, short duration, short limitPerson ) {
+		super(idCourse);
 		this.nameCourse = nameCourse;
 		this.description = description;
 		this.duration = duration;
 		this.limitPerson = limitPerson;
 	}
 	
-	public Course() {
-		
-	}
 	
-	public int getIdCourse() {
-		return idCourse;
-	}
-
-	public void setIdCourse(int idCourse) {
-		this.idCourse = idCourse;
-	}
-
 	public String getNameCourse() {
 		return nameCourse;
 	}

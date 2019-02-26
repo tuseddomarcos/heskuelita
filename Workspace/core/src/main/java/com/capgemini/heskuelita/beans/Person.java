@@ -2,9 +2,8 @@ package com.capgemini.heskuelita.beans;
 
 import java.util.Date;
 
-public class Person {
+public class Person extends Component {
 	
-	private int idPerson;
 	private String name;
 	private String lastName;
 	private Date birthdate;
@@ -17,13 +16,12 @@ public class Person {
 	private String securityQuest;
 	private String answer;
 	
-	public int getIdPerson() {
-		return idPerson;
+	public Person() {
+		super();
 	}
-	public void setIdPerson(int idPerson) {
-		this.idPerson = idPerson;
-	}
-	public Person(int idPerson, String name, String lastName, Date birthdate, String documentType, int phone, char gender, String email, String password, String securityQuest, String answer) {
+	
+	public Person(long idPerson, String name, String lastName, Date birthdate, String documentType, int phone, char gender, String email, String password, String securityQuest, String answer) {
+		super(idPerson);
 		this.name = name;
 		this.lastName = lastName;
 		this.birthdate = birthdate;

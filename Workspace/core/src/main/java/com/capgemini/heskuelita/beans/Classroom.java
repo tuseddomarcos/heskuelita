@@ -1,25 +1,20 @@
 package com.capgemini.heskuelita.beans;
 
-public class Classroom {
+public class Classroom extends Component {
 	
-	private int idClassroom;
 	private String nameClassroom;
 	private short capacity;
 	
-	public Classroom(int idClassroom, String nameClassroom, short capacity) {
-		this.idClassroom = idClassroom;
+	public Classroom() {
+		super();
+	}
+	
+	public Classroom(long idClassroom, String nameClassroom, short capacity) {
+		super(idClassroom);
 		this.nameClassroom = nameClassroom;
 		this.capacity = capacity;
 	}
 	
-	
-	public int getIdClassroom() {
-		return idClassroom;
-	}
-
-	public void setIdClassroom(int idClassroom) {
-		this.idClassroom = idClassroom;
-	}
 
 	public String getNameClassroom() {
 		return nameClassroom;
