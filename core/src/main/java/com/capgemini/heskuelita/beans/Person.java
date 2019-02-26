@@ -1,4 +1,4 @@
-package com.capgemini.heskuelita.beans; 
+package com.capgemini.heskuelita.beans;
 
 import java.util.Date;
 
@@ -6,8 +6,8 @@ public class Person {
 
 	private String Name;
 	private String LastName;
-    private Date BirthDay ;
-    private boolean Sex;
+    private String BirthDay ;
+    private char Sex;
     private String NumId;
 	
     public void setName(String name) {
@@ -16,16 +16,16 @@ public class Person {
 	public void setLastName(String lastName) {
 		LastName = lastName;}
 
-	public void setBirthDay(Date birthDay) {
+	public void setBirthDay(String birthDay) {
 		BirthDay = birthDay;}
 
-	public void setSex(boolean sex) {
+	public void setSex(char sex) {
 		Sex = sex;}
 
 	public void setNumId(String numId) {
 		NumId = numId;}
 
-public Person (String Name, String LastName, Date BirthDay,Boolean Sex, String NumId ){
+public Person (String Name, String LastName, String BirthDay,char Sex, String NumId ){
 	
     this.Name = Name;
     this.LastName= LastName;
@@ -36,8 +36,8 @@ public Person (String Name, String LastName, Date BirthDay,Boolean Sex, String N
 
 public String getName () {return Name;} 
 public String getLastName () {return LastName;}
-public Date getBirthDay () {return BirthDay;}
-public boolean getSex () {return Sex;}
+public String getBirthDay () {return BirthDay;}
+public char getSex () {return Sex;}
 public String getNumId () {return NumId;}
 
 
