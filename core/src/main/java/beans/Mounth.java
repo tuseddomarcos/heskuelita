@@ -4,10 +4,10 @@ public enum Mounth {
 	
 	Enero, Febrero, Marzo ;
 	
-	Month (int val) {
-		this.val = val ;
+	//Month (int val) {
+		//this.val = val ;
 		
-	}
+//	}
 	
 	private int val ;
 	public int getVal() {
