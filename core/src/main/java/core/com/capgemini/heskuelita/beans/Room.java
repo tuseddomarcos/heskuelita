@@ -7,7 +7,8 @@ public  class Room implements ICourseFunctions{
 	private String nombreMateria;
 	//private String horario;
 	private int Capacidad;
-	public ArrayList<Student>Cursantes;
+	private ArrayList<Student>Cursantes;
+	private int Registrados;
 	
 	public Room(String nombreMateria, int Comision , int Capacidad){
 		this.nombreMateria = nombreMateria;
@@ -45,22 +46,54 @@ public  class Room implements ICourseFunctions{
 	public void AnotarAlumno(Student S) {
 		if(Cursantes.size() <= Capacidad) {
 			Cursantes.add(S);
+			Registrados++;
 		}
 		else {
 			throw new IllegalArgumentException("El aula esta llena");			
 		}
 	}
+	
+	public void EliminarAlumno(Student S) {
+		for(Student estudiante : Cursantes) {
+			if(estudiante.equals(S)) {
+				Cursantes.remove(S);
+				Registrados--;
+				break;
+			}
+		}
+	}
 
-	public Student BuscarAlumno(int dni) {
+	public Student BuscarPorDNI(int dni) {
 		for(Student estudiante : Cursantes) {
 			if(estudiante.getDni() == dni) {
 				return estudiante;
 			}
-			else {
-				return null;
-			}
 		}
 		return null;
+	}
+	
+	public ArrayList<Student> BuscarPorNombre(String nombre) {
+		ArrayList<Student> busqueda = new ArrayList<>();
+		for(Student estudiante : Cursantes) {
+			if(estudiante.getName().compareTo(nombre) == 0) {
+				busqueda.add(estudiante);
+			}
+		}
+		return busqueda;
+	}
+	
+	public ArrayList<Student> BuscarPorMail(String mail) {
+		ArrayList<Student> busqueda = new ArrayList<>();
+		for(Student estudiante : Cursantes) {
+			if(estudiante.getEmail().contains(mail)) {
+				busqueda.add(estudiante);
+			}
+		}
+		return busqueda;
+	}
+
+	public int getRegistrados() {
+		return Registrados;
 	}
 	
 }
