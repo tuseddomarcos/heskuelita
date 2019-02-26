@@ -1,5 +1,5 @@
 package com.capgemini.heskuelita.beans;
 
-public class User {
+public class User extends Component{
 
 }

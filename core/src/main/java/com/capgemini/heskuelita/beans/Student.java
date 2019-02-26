@@ -1,27 +1,19 @@
 package com.capgemini.heskuelita.beans;
 
 public class Student extends Person {
+	 
 	
-	private short id;
-	private String doc_type;
-	private int identification;
-	private int phone;
+    public Student () {
 
-	
-	public Student () {
-	
-	
-}	
-	public Student (String name, String lastName,String gender,short age) {
-		super (name, lastName, gender, age);
-		}
+        super ();
+    }
+    
+	public Student(int id, String name, String lastName,String gender,int age, String doc_type, int identification, int phone, String email)
+		{
+			super (id,name, lastName, gender, age,doc_type,identification, phone, email);
 		
-				
-	public Student (short id, String doc_type, int identification, int phone) {
-		this.id = id;
-		this.doc_type = doc_type;
-		this.identification = identification;
-		this.phone = phone;
-	}
+					}
+	
+	
 	
 }
