@@ -53,7 +53,7 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 	@Override
 	public ArrayList<Student> findUsersByLastName(String aLastName) {
 		
-		return (ArrayList<Student>) this.students.stream().filter(offer -> offer.getLastname()
+		return (ArrayList<Student>) this.students.stream().filter(s -> s.getLastname()
 				== aLastName).collect(Collectors.toList());
 	}
 
