@@ -67,4 +67,9 @@ public abstract class Person extends Component {
 
 		this.dni = dni;
 	}
+	
+    @Override
+    public String toString() {
+    	return getName()+ " " + getLastName() + " " + getDni() + " " + getEmail();
+    }
 }
