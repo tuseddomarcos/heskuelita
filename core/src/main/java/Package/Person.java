@@ -3,13 +3,13 @@ package Package;
 public class Person {
 
 	private int id;
-	private char firstName;
-	private char lastName;
-	private char documentation;
+	private String firstName;
+	private String lastName;
+	private String documentation;
 	private int identification;
-	private char email;
+	private String email;
 
-	public Person(int id, char firstName, char lastName, char documentation, int identification, char email) {
+	public Person(int id, String firstName, String lastName, String documentation, int identification, String email) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -22,15 +22,15 @@ public class Person {
 		return this.id;
 	}
 
-	public char getFirstName() {
+	public String getFirstName() {
 		return this.firstName;
 	}
 
-	public char getLastName() {
+	public String getLastName() {
 		return this.lastName;
 	}
 
-	public char getDocumentation() {
+	public String getDocumentation() {
 		return this.documentation;
 	}
 
@@ -38,7 +38,7 @@ public class Person {
 		return this.identification;
 	}
 
-	public char getEmail() {
+	public String getEmail() {
 		return this.email;
 	}
 }
