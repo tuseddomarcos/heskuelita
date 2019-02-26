@@ -1,15 +1,19 @@
 package com.capgemini.heskuelita.beans;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
 import org.apache.log4j.*;
 
 public class App {
 
 	public static void main(String[] args) {
 
-		
-		
 		
 		Collection<String> prueba= new HashSet<String>();
 		
@@ -27,7 +31,14 @@ public class App {
 		for (String e: prueba){
 			System.out.println(e);
 		}
-			
+		
+		List<String> names= Arrays.asList ("raul.pena@gmail.com", "raul.pena@hotmail.com",
+				 "homer.simpson@gmail.com", "lisa.simpson@yahoo.com", "bart.simpson@gmail.com");
+		
+		List<String> filtrados= names.stream().filter(n -> n.contains("@gmail")).collect(Collectors.toList());
+		
+		filtrados.forEach(n -> System.out.println(n)); 
+		
 		
 	}
 	

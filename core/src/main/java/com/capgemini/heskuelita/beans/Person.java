@@ -63,6 +63,22 @@ public class Person extends Component{
 	public void setSecurityAnswer(String securityAnswer) {
 		this.securityAnswer = securityAnswer;
 	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public int getDni() {
+		return dni;
+	}
+
+	public char getGender() {
+		return gender;
+	}
 	
 	
 	
