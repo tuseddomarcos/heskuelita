@@ -1,5 +1,4 @@
 package core.com.capgemini.heskuelita.beans;
-
 import java.util.Scanner;
 
 public class DataBase {
@@ -11,7 +10,7 @@ public class DataBase {
 		Student s4 = new Student("Lucas","Sosa","AlSosa@hotmail.com",00000004,100000004);
 		Student s5 = new Student("Armando","Barreda","ArBarreda@hotmail.com",00000005,100000005);
 		
-		Room Salon = new Room("Escuelita Java", 0001 , 10);
+		Room Salon = new Room("Escuelita Java", 0001 , 5);
 		Salon.AnotarAlumno(s1);
 		Salon.AnotarAlumno(s2);
 		Salon.AnotarAlumno(s3);

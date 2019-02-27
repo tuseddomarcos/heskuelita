@@ -44,7 +44,7 @@ public  class Room implements ICourseFunctions{
 
 	
 	public void AnotarAlumno(Student S) {
-		if(Cursantes.size() <= Capacidad) {
+		if(Cursantes.size() < Capacidad) {
 			Cursantes.add(S);
 			Registrados++;
 		}
