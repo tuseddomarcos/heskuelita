@@ -1,10 +1,10 @@
 package com.capgemini.heskuelita.beans;
-import java.util.Date;
+import java.time.LocalDate;
 
 public abstract class Person extends IDGenerator{
 	
 	public String name;
-	public Date birthday;
+	public LocalDate birthday;
 	public String email;
 	public char sex;
 	
@@ -12,7 +12,7 @@ public abstract class Person extends IDGenerator{
 		super();
 	}
 	
-	public Person(String name, Date birthday, String email, char sex, int id) {
+	public Person(String name, LocalDate birthday, String email, char sex, int id) {
 		this.id=id;
 		this.name=name;
 		this.birthday=birthday;
@@ -32,10 +32,10 @@ public abstract class Person extends IDGenerator{
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Date getBirthday() {
+	public LocalDate getBirthday() {
 		return birthday;
 	}
-	public void setBirthday(Date birthday) {
+	public void setBirthday(LocalDate birthday) {
 		this.birthday = birthday;
 	}
 	public String getEmail() {
