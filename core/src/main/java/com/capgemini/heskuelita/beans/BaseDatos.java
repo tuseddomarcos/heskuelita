@@ -1,20 +1,18 @@
 package com.capgemini.heskuelita.beans;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class BaseDatos {
 
+	
+
 	private static List<Student> students;
 	private static List<Courses> courses;
+	public static void main(String[] args) {}
+	
 
-	public static void main(String[] args) {
-		
-	
-		    final  List<Student> students = new ArrayList <Student>();
-			final  List<Courses> courses = new ArrayList <Courses>();}
-	
+
 	static {
 			
 					students = Arrays.asList( 
@@ -25,24 +23,29 @@ public class BaseDatos {
 					new Student("Lucas","Perez","13/8",'M',"62873","353","ah86687"),
 					new Student("Noelia","Jeff","2/9",'f',"7162873","3245345","78hads889")
 					);
-			}
 		
-	static {
-			
-			courses = Arrays.asList(
+			       courses  = (Arrays.asList(
+			    		   
 					new Courses ("Java","343434","Nivel inicial"),
 					new Courses ("Diseño web","3242323","Avanzado"),
 					new Courses ("SQL","34342234","Nivel Intermedio")
-					);
+					));
 		
 			for (Student s : students) {
 			System.out.println(s.getName());
 			System.out.println(s.getSex());
 			System.out.println(s.getBirthDay());
-	
-	       } }
-	
+			
+			for (Courses e : courses) {
+				System.out.println(e.getID_Course());
+				System.out.println(e.getName());
+				System.out.println(e.getDescrption());
+			}
+			}
 	}
+}
+	       	
+	
 		
 
 
