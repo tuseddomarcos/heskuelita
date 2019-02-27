@@ -1,15 +1,16 @@
 package com.capgemini.heskuelita.beans;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 
 public class Person extends Component {
 	
 	private String name;
 	private String lastName;
-	private Date birthdate;
+	private LocalDate birthdate;
 	private String documentType;
-	private int identification;
-	private int phone;
+	private long identification;
+	private long phone;
 	private char gender;
 	private String email;
 	private String password;
@@ -20,12 +21,13 @@ public class Person extends Component {
 		super();
 	}
 	
-	public Person(long idPerson, String name, String lastName, Date birthdate, String documentType, int phone, char gender, String email, String password, String securityQuest, String answer) {
+	public Person(long idPerson, String name, String lastName, LocalDate birthdate, String documentType,long identification ,long phone, char gender, String email, String password, String securityQuest, String answer) {
 		super(idPerson);
 		this.name = name;
 		this.lastName = lastName;
 		this.birthdate = birthdate;
 		this.documentType = documentType;
+		this.identification = identification;
 		this.phone = phone;
 		this.gender = gender;
 		this.email = email;
@@ -45,10 +47,10 @@ public class Person extends Component {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public Date getBirthday() {
+	public LocalDate getBirthday() {
 		return birthdate;
 	}
-	public void setBirthday(Date birthday) {
+	public void setBirthday(LocalDate birthday) {
 		this.birthdate = birthday;
 	}
 	public String getDocumentType() {
@@ -57,13 +59,13 @@ public class Person extends Component {
 	public void setDocumentType(String documentType) {
 		this.documentType = documentType;
 	}
-	public int getIdentification() {
+	public long getIdentification() {
 		return identification;
 	}
 	public void setIdentification(int identification) {
 		this.identification = identification;
 	}
-	public int getPhone() {
+	public long getPhone() {
 		return phone;
 	}
 	public void setPhone(int phone) {

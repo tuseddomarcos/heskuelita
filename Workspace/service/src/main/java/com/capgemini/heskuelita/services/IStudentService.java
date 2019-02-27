@@ -6,8 +6,10 @@ public interface IStudentService {
 	
 	void enrollStudent(Student student);
 	
-	void deleteStudent(int idStudent);
+	void deleteStudent(Student idStudent);
 	
 	void updateStudent(Student student);
+	
+	Student findByIdentification(Student student);
 
 }

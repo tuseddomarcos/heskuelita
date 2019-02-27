@@ -1,7 +1,8 @@
 package com.capgemini.heskuelita.beans;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
+
 
 public class Student extends Person {
 	ArrayList<Course> courses = new ArrayList<Course>();
@@ -10,9 +11,9 @@ public class Student extends Person {
 		super();
 	}
 	
-	public Student(long idStudent, String name, String lastName, Date birthdate, String documentType, int phone, char gender,
+	public Student(long idStudent, String name, String lastName, LocalDate birthdate, String documentType,long identification ,long phone, char gender,
 			String email, String password, String securityQuest, String answer) {
-		super(idStudent, name, lastName, birthdate, documentType, phone, gender, email, password, securityQuest, answer);
+			super(idStudent, name, lastName, birthdate, documentType, identification,phone, gender, email, password, securityQuest, answer);
 		// TODO Auto-generated constructor stub
 	}
 	
@@ -23,4 +24,7 @@ public class Student extends Person {
 	public ArrayList<Course> getRegisteredCourse(){
 		return courses;
 	}
+	
+	
+	
 }

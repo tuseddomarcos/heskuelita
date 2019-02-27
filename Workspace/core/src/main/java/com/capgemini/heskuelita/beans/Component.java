@@ -2,7 +2,7 @@ package com.capgemini.heskuelita.beans;
 
 public abstract class Component {
 	
-	private long id;
+	protected long id;
 	
 	public Component() {
 		super();
