@@ -1,25 +1,22 @@
 package Package;
 
-public class Person {
+public abstract class Person extends ContentID {
 
-	private int id;
 	private String firstName;
 	private String lastName;
+	private String sex;
 	private String documentation;
 	private int identification;
 	private String email;
 
-	public Person(int id, String firstName, String lastName, String documentation, int identification, String email) {
-		this.id = id;
+	public Person(int id, String firstName, String lastName, String sex, String documentation, int identification, String email) {
+		super(id);
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.sex = sex;
 		this.documentation = documentation;
 		this.identification = identification;
 		this.email = email;
-	}
-
-	public int getId() {
-		return this.id;
 	}
 
 	public String getFirstName() {
@@ -30,6 +27,10 @@ public class Person {
 		return this.lastName;
 	}
 
+	public String getSex() {
+		return this.sex;
+	}
+	
 	public String getDocumentation() {
 		return this.documentation;
 	}

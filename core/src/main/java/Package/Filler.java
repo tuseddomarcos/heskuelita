@@ -1,16 +1,13 @@
 package Package;
-import java.util.*;
-import java.util.stream.*;
+import java.util.ArrayList;
+import java.util.Arrays;;
 
 public class Filler {
 
-		Student marcos = new Student(01, "Marcos", "Inca", "DNI", 190, "marcos@gmail.com");
-		Student juan = new Student(02, "Juan", "Lopez", "DNI", 198, "juan@hotmail.com");
-		Student pedro = new Student(03, "Pedro", "Lopez", "DNI", 102, "pedro@hotmail.com");
-		Student manuel = new Student(04, "Manuel", "Deo", "DNI", 209, "manuel@hotmail.com");
+	static Student marcos = new Student(01, "Marcos", "Inca", "M", "DNI", 190, "marcos@gmail.com");
+	static Student juan = new Student(02, "Juan", "Lopez", "M", "DNI", 198, "juan@hotmail.com");
+	static Student laura = new Student(03, "Laura", "Lopez", "F", "DNI", 102, "pedro@hotmail.com");
+	static Student manuel = new Student(04, "Manuel", "Deo", "M", "DNI", 209, "manuel@hotmail.com");
 
-		List<Student> students = Arrays.asList(marcos, juan, pedro, manuel);
-		List<Student> gmail = students.stream().filter(e -> e.getLastName() == "Lopez").collect(Collectors.toList());
-		
-		
+	static ArrayList<Student> students = new ArrayList<> (Arrays.asList(marcos, juan, laura, manuel));
 }

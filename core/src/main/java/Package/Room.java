@@ -1,22 +1,20 @@
 package Package;
 
-public class Room {
-	private int idRoom;
+public class Room extends ContentID { 
 	private int capacity;
+	private int roomN;
 	
-	public Room() {};
-	
-	public Room(int idRoom, int capacity) {
-		this.idRoom = idRoom;
+	public Room(int id, int capacity, int roomN) {
+		super(id);
 		this.capacity = capacity;
-	}
-
-	public int getIdRoom() {
-		return idRoom;
+		this.roomN = roomN;
 	}
 	
 	public int getCapacity() {
 		return capacity;
 	}
 	
+	public int getRoomN() {
+		return roomN;
+	}
 }

@@ -12,8 +12,8 @@
         <artifactId>module</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>service</artifactId>
-    <name>Heskuelita Service Library</name>
+    <artifactId>data</artifactId>
+    <name>Heskuelita Data Library</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

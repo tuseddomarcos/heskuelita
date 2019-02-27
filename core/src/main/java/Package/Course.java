@@ -1,19 +1,17 @@
 package Package;
 
-public class Course extends Room {
-	private String courseName;
+public class Course extends ContentID {
+	private String name;
 	private String description;
-	
-	public Course() {};
-	
-	public Course(int idRoom, int capacity, String courseName, String description) {
-		super(idRoom, capacity);
-		this.courseName = courseName;
+		
+	public Course(int id, String name, String description) {
+		super(id);
+		this.name = name;
 		this.description = description;
 	}
 	
-	public String getCourseName() {
-		return this.courseName;
+	public String getName() {
+		return this.name;
 	}
 	
 	public String getDescription() {
