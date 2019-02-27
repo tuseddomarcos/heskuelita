@@ -110,10 +110,19 @@ public class Course extends Component {
 	
 	public void eliminarPorDni(int dni) {
 		
-		for(Student e: lista) {
-			if(e.getDni()==dni) {
+		for(int i=0; i<lista.size();i++) {
+			if(lista.get(i).getDni()==dni) {
+				lista.remove(i);
+				registrados--;
+			}
+		}
+	}
+	
+	public void eliminarPorMail(String email) {
+		for(Student e:lista) {
+			if(e.getEmail().equals(email)) {
 				lista.remove(e);
-				capacidad--;
+				registrados--;
 			}
 		}
 	}

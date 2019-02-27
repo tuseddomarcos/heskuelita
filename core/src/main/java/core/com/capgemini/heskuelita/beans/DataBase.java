@@ -42,18 +42,19 @@ public class DataBase {
 				
 //				System.out.println(curso.getRegistrados());
 //				
-//				System.out.println(curso.buscarPorDni(11111111));
+				curso.eliminarPorMail("luisherrera@hotmail.com");
+				System.out.println("Cantidad de registrados " + curso.getRegistrados());
+				
+//				System.out.println("Ingresar el dni para buscar alumno: ");
+//				System.out.println(curso.buscarPorDni(in.nextInt()));
 //				
-//				System.out.println("Introduza su nombre");
-//				System.out.println("" + in.next());
+			
+//				System.out.println("Introduza el mail");
 //				System.out.println(curso.buscarPorMail(in.next()));
+
+//				System.out.println("Ingresar el dni a eliminar");
 				
-				System.out.println("Introduza el dni");
-				
-//				System.out.println("" + in.next());
-				System.out.println(curso.buscarPorMail("herrera"));
-				curso.eliminarPorDni(in.nextInt());
-				System.out.println(curso.buscarPorMail("herrera"));
+//				System.out.println(curso.buscarPorMail("herrera"));
 		
 	}
 
