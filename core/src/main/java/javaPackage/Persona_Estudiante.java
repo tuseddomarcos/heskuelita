@@ -23,7 +23,7 @@ public class Persona_Estudiante extends Person {
 		this.anio_est = anio_est;
 	}
 	
-	public Persona_Estudiante(int id_per, String nombre_per, String apellido_per, int edad_per, char genero_per, int id_est, int id_per2, int anio_est) {
+	public Persona_Estudiante(int id_per, String nombre_per, String apellido_per, int edad_per, String genero_per, int id_est, int id_per2, int anio_est) {
 		super(id_per, nombre_per, apellido_per, edad_per, genero_per);
 		this.id_est = id_est;
 		this.anio_est = anio_est;

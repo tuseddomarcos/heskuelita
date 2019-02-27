@@ -24,7 +24,7 @@ public void setTitulo_prof(String titulo_prof) {
 	this.titulo_prof = titulo_prof;
 }
 
-public Persona_Profesor(int id_per, String nombre_per, String apellido_per, int edad_per, char genero_per, int id_prof, int id_per1, String titulo_prof) {
+public Persona_Profesor(int id_per, String nombre_per, String apellido_per, int edad_per, String genero_per, int id_prof, int id_per1, String titulo_prof) {
 super(id_per, nombre_per, apellido_per, edad_per, genero_per);
 this.id_per1=id_per1;
 this.id_prof=id_prof;
