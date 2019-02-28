@@ -30,9 +30,4 @@ public class Program {
 			Data.agragarStudent(student);
 		}
 	}
-	
-	public static Student buscar(String email) { 
-		return Data.getStudents().stream().filter(e -> e.getEmail().equals(email)).findFirst().get();
-	}
-	
 }
