@@ -123,6 +123,7 @@ public class Course extends Component {
 			if(e.getEmail().equals(email)) {
 				lista.remove(e);
 				registrados--;
+				break;
 			}
 		}
 	}
