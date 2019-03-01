@@ -1,40 +1,44 @@
 package com.capgemini.heskuelita.test;
 
-import org.apache.commons.dbcp2.BasicDataSource;
-
+import org.junit.*;
 import java.sql.*;
-
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.apache.log4j.Logger;
 import static org.apache.commons.lang3.RandomStringUtils.*;
 
-
 public class DataSourceTest {
+	
+	private BasicDataSource dataSource;
+	
+	// Logger object.
+    public static final Logger logger = Logger.getLogger (DataSourceTest.class);
+    
 
 
-    private BasicDataSource dataSource;
-
-    static final String URL = "jdbc:postgresql://localhost:5432/postgres";
-	static final String USER = "postgres";
-	static final String PASS = "andres";
-    public DataSourceTest() {
-
-        super ();
-    }
-
-
+	@Before
     public void setup () throws Exception {
 
-        // Create a new Datasource.
-        this.dataSource = new BasicDataSource ();
+		try {
+			// Create a new Datasource.
+	        this.dataSource = new BasicDataSource ();
 
-        dataSource.setUrl(URL);
-        dataSource.setUsername (USER);
-        dataSource.setPassword (PASS);
-        dataSource.setMinIdle (5);
-        dataSource.setMaxIdle (10);
-        dataSource.setMaxOpenPreparedStatements (100);
+	        dataSource.setUrl("jdbc:postgresql://localhost:5432/postgres");
+	        dataSource.setUsername ("postgres");
+	        dataSource.setPassword ("andres");
+	        dataSource.setMinIdle (5);
+	        dataSource.setMaxIdle (10);
+	        dataSource.setMaxOpenPreparedStatements (100);
+	        
+	        logger.debug("Connected to database");
+	        
+	        
+		}catch (Exception e){
+			
+		}
+        
     }
 
-
+	@Test
     public void testCreate () {
 
         try {
@@ -56,9 +60,7 @@ public class DataSourceTest {
          
             // Execute the insert.
             int r = pstm.executeUpdate ();
-
-          
-
+ 
         } catch (Exception e) {
 
             e.printStackTrace ();
@@ -66,6 +68,7 @@ public class DataSourceTest {
         }
     }
     
+	@Test
     public void testDelete () {
 
         try {
@@ -82,6 +85,7 @@ public class DataSourceTest {
         }
     }
     
+	@Test
     public void testUpdate () {
 
         try {
@@ -99,6 +103,7 @@ public class DataSourceTest {
         }
     }
     
+	@Test
     public void testRead () {
 
         try {
@@ -127,19 +132,19 @@ public class DataSourceTest {
             // also possible to get the columns via the column number
             // which starts at 1
             // e.g. resultSet.getSTring (2);
-        	String    id = rs.getString (1);
-            String    name = rs.getString (2);
-            String last_name = rs.getString (3);
-
-            System.out.println(id+" "+name+" "+last_name);
-
+        	
+        	logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
 
         }
     }
     
+    @After
     public void destroy () throws Exception {
 
         this.dataSource.close ();
+        logger.debug("Connected to finalized database");
     }
 
 }
+
+

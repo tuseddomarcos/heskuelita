@@ -1,0 +1,52 @@
+2019-03-01 15:26:49 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:26:52 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:26:52 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:26:52 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:27:41 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:27:42 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:27:42 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:27:42 DEBUG DataSourceTest1:32 - Conectado a base de datos
+2019-03-01 15:43:56 INFO  DataSourceTest:136 - 1
+2019-03-01 15:43:56 INFO  DataSourceTest:137 - OOP
+2019-03-01 15:43:56 INFO  DataSourceTest:138 - OOP
+2019-03-01 15:43:56 INFO  DataSourceTest:136 - 2
+2019-03-01 15:43:56 INFO  DataSourceTest:137 - Math1
+2019-03-01 15:43:56 INFO  DataSourceTest:138 - Math1
+2019-03-01 15:43:56 INFO  DataSourceTest:136 - 3
+2019-03-01 15:43:56 INFO  DataSourceTest:137 - Wpro
+2019-03-01 15:43:56 INFO  DataSourceTest:138 - Wpro
+2019-03-01 15:46:33 INFO  DataSourceTest:136 - 1
+2019-03-01 15:46:33 INFO  DataSourceTest:137 - OOP
+2019-03-01 15:46:33 INFO  DataSourceTest:138 - OOP
+2019-03-01 15:46:33 ERROR DataSourceTest:140 - g
+2019-03-01 15:46:33 INFO  DataSourceTest:136 - 2
+2019-03-01 15:46:33 INFO  DataSourceTest:137 - Math1
+2019-03-01 15:46:33 INFO  DataSourceTest:138 - Math1
+2019-03-01 15:46:33 ERROR DataSourceTest:140 - g
+2019-03-01 15:46:33 INFO  DataSourceTest:136 - 3
+2019-03-01 15:46:33 INFO  DataSourceTest:137 - Wpro
+2019-03-01 15:46:33 INFO  DataSourceTest:138 - Wpro
+2019-03-01 15:46:33 ERROR DataSourceTest:140 - g
+2019-03-01 15:47:04 INFO  DataSourceTest:136 - 1
+2019-03-01 15:47:04 INFO  DataSourceTest:137 - OOP
+2019-03-01 15:47:04 INFO  DataSourceTest:138 - Objecr Orient Programming
+2019-03-01 15:47:04 INFO  DataSourceTest:136 - 2
+2019-03-01 15:47:04 INFO  DataSourceTest:137 - Math1
+2019-03-01 15:47:04 INFO  DataSourceTest:138 - Mathematics 1
+2019-03-01 15:47:04 INFO  DataSourceTest:136 - 3
+2019-03-01 15:47:04 INFO  DataSourceTest:137 - Wpro
+2019-03-01 15:47:04 INFO  DataSourceTest:138 - Web programming
+2019-03-01 15:47:43 INFO  DataSourceTest:136 - 1OOPObjecr Orient Programming
+2019-03-01 15:47:43 INFO  DataSourceTest:136 - 2Math1Mathematics 1
+2019-03-01 15:47:43 INFO  DataSourceTest:136 - 3WproWeb programming
+2019-03-01 15:51:05 DEBUG DataSourceTest:32 - Connected to database
+2019-03-01 15:51:06 INFO  DataSourceTest:136 - 1 OOP Objecr Orient Programming
+2019-03-01 15:51:06 INFO  DataSourceTest:136 - 2 Math1 Mathematics 1
+2019-03-01 15:51:06 INFO  DataSourceTest:136 - 3 Wpro Web programming
+2019-03-01 15:51:06 DEBUG DataSourceTest:145 - Connected to finalized database
+2019-03-01 15:51:06 DEBUG DataSourceTest:32 - Connected to database
+2019-03-01 15:51:06 DEBUG DataSourceTest:145 - Connected to finalized database
+2019-03-01 15:51:06 DEBUG DataSourceTest:32 - Connected to database
+2019-03-01 15:51:06 DEBUG DataSourceTest:145 - Connected to finalized database
+2019-03-01 15:51:06 DEBUG DataSourceTest:32 - Connected to database
+2019-03-01 15:51:06 DEBUG DataSourceTest:145 - Connected to finalized database
