@@ -1,6 +1,7 @@
 package com.capgemini.heskuelita.test;
 
 import org.junit.*;
+
 import java.sql.*;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.log4j.Logger;
@@ -9,10 +10,10 @@ import static org.apache.commons.lang3.RandomStringUtils.*;
 public class DataSourceTest {
 	
 	private BasicDataSource dataSource;
-	
+
+
 	// Logger object.
-    public static final Logger logger = Logger.getLogger (DataSourceTest.class);
-    
+	public static final Logger logger = Logger.getLogger (DataSourceTest.class);
 
 
 	@Before
@@ -31,7 +32,7 @@ public class DataSourceTest {
 	        
 	        logger.debug("Connected to database");
 	        
-	        
+	         
 		}catch (Exception e){
 			
 		}
@@ -64,6 +65,7 @@ public class DataSourceTest {
         } catch (Exception e) {
 
             e.printStackTrace ();
+            Assert.assertTrue ("Failure executing Insert...", e == null);
             
         }
     }
@@ -81,7 +83,7 @@ public class DataSourceTest {
         } catch (Exception e) {
 
             e.printStackTrace ();
-            
+            Assert.assertTrue ("Failure executing Insert...", e == null);
         }
     }
     
@@ -99,6 +101,7 @@ public class DataSourceTest {
         } catch (Exception e) {
 
             e.printStackTrace ();
+            Assert.assertTrue ("Failure executing Insert...", e == null);
             
         }
     }
@@ -111,7 +114,7 @@ public class DataSourceTest {
             Statement stm = this.dataSource.getConnection ().createStatement ();
 
             // Result set get the result of the SQL query
-            ResultSet resultSet = stm.executeQuery ("SELECT * from course");
+            ResultSet resultSet = stm.executeQuery ("SELECT * from student");
 
             // Print the messages.
             writeResult (resultSet);
@@ -119,6 +122,7 @@ public class DataSourceTest {
         } catch (Exception e) {
 
             e.printStackTrace ();
+            Assert.assertTrue ("Failure executing Insert...", e == null);
             
         }
     }

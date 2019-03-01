@@ -3,14 +3,18 @@ package core.com.capgemini.heskuelita.beans;
 
 public abstract class Person {
 	private String name, last_name, documentation_type, screet,email;
-	private int id,identitication,phone,number, zip_code;
+	protected int id;
+	private int identitication;
+	private int phone;
+	private int number;
+	private int zip_code;
 	private char sex;
 
 	public Person(String name, String last_name, String documentation_type,
-			String screet,int id,int identitication,
+			String screet,int identitication,
 			int phone,int number, int zip_code,
 			char sex) {
-		this.id=id;
+		this.id+=1;
 		this.documentation_type=documentation_type;
 		this.identitication=identitication;
 		this.last_name=last_name;
