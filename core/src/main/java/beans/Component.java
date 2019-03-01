@@ -4,14 +4,14 @@ package beans;
 public abstract class Component {
 
 
-    private Long id;
+    private Integer id;
 
     public Component () {
 
         super ();
     }
 
-    public Component (Long id) {
+    public Component (int id) {
 
         super ();
 
@@ -19,12 +19,12 @@ public abstract class Component {
     }
 
 
-    public Long getId () {
+    public int getId () {
 
         return id;
     }
 
-    public void setId (Long id) {
+    public void setId (int id) {
 
         this.id = id;
     }

@@ -16,8 +16,7 @@ public class Course extends Component{
 		this.limit_person = limit_person;
 	}
 	
-	
-	public int getNumber() {
+	public int getId() {
 		return this.id ;
 	}
 

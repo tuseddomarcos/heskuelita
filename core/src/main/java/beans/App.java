@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import interfaces.ICourseServices;
+import interfaces.IStudentServices;
+import interfaces.ITeacherServices;
+
 
 public class App implements ICourseServices, IStudentServices, ITeacherServices {
 	
@@ -12,11 +16,12 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 	private ArrayList<Teacher>teachers ;
 	private ArrayList<Course>courses ;
 	private ArrayList<AcademicOffer>offers ;
+	private ArrayList<Inscription>incriptions ;
 	
-	public Course findByNumberClassroom(int numberClassroom) {
+	public Course findByNumberClassroom(int course_id) {
 		
-		return courses.stream().filter(course -> course.getNumber()
-				== numberClassroom )
+		return courses.stream().filter(course -> course.getId()
+				== course_id )
 		    .findFirst().get();
 	}
 	
@@ -44,10 +49,10 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 	}
 
 	@Override
-	public Student findUserByDNI(int dni) {
+	public ArrayList<Student> findUserByIdentification(int identification) {
 		
-		return this.students.stream().filter(s -> s.getDNI() == dni )
-				    .findFirst().get();
+		return (ArrayList<Student>) this.students.stream().filter(s -> s.getIdentification() == identification )
+				    .collect(Collectors.toList());
 	}
 
 	@Override
@@ -55,6 +60,19 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 		
 		return (ArrayList<Student>) this.students.stream().filter(s -> s.getLastname()
 				== aLastName).collect(Collectors.toList());
+	}
+	
+	@Override
+	public Student findUserByEmail(String email) {
+		
+		return students.stream().filter(s -> s.getEmail() == email).findFirst().get() ;
+	}
+
+	@Override
+	public ArrayList<Student> findUserByTelephone(int telephone) {
+		
+		return (ArrayList<Student>) students.stream().filter(s->s.getTelephone() == telephone)
+				.collect(Collectors.toList()) ;
 	}
 
 	@Override
@@ -68,19 +86,19 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 	}
 
 	@Override
-	public void deleteTeacherByDNI(int dni) {
+	public void deleteTeacherByIdentification(int identification) {
 		
 		Teacher teacher = this.teachers.stream().filter(t -> t.getIdentification()
-				== dni).findFirst().get();
+				== identification).findFirst().get();
 		
 		this.teachers.remove(teacher) ;	
 	}
 
 	@Override
-	public Teacher findByDNI(int dni) {
+	public Teacher findByIdentification(int identification) {
 		
 		return this.teachers.stream().filter(t -> t.getIdentification()
-				== dni).findFirst().get();
+				== identification).findFirst().get();
 	}
 
 	@Override
@@ -96,6 +114,8 @@ public class App implements ICourseServices, IStudentServices, ITeacherServices 
 		return (ArrayList<Teacher>) this.teachers.stream().filter(t -> t.getLastname()
 				== aLastName).collect(Collectors.toList());
 	}
+
+	
 	
 	
 	

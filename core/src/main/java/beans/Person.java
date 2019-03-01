@@ -10,7 +10,7 @@ public class Person {
 	protected String name;
 	protected String lastName;
 	protected String documentationType;
-	protected Date birthday;
+	protected Date birthdate;
 	protected int identification;
 	protected int telephone;
 	protected String sex;
@@ -21,8 +21,13 @@ public class Person {
 	protected int password;
 	protected String sequerityQuestion;
 	
-	public Person() {
-	}
+	public Person(String name, String lastName,  String user_name,int identification ) {
+		this.name = name;
+		this.lastName = lastName;
+		this.user_name = user_name;
+		this.identification = identification;
+		
+		}
 
 	public Person(int id, String name, String lastName, String documentationType, Date birthday,
 			int identification, int telephone, String sex, String country, String state,
@@ -32,7 +37,7 @@ public class Person {
 		this.name = name;
 		this.lastName = lastName;
 		this.documentationType = documentationType;
-		this.birthday = birthday;
+		this.birthdate = birthdate ;
 		this.identification = identification;
 		this.telephone = telephone;
 		this.sex = sex;
@@ -53,7 +58,7 @@ public class Person {
 		this.name = name;
 		this.lastName = lastName;
 		this.documentationType = documentationType;
-		this.birthday = birthday;
+		this.birthdate = birthdate;
 		this.identification = identification;
 		this.telephone = telephone;
 		this.sex = sex;
@@ -62,6 +67,8 @@ public class Person {
 		this.city = city;
 		
 	}
+	
+	
 	
 	
 	/**	LO que vimos de LOGGER:
