@@ -1,7 +1,7 @@
 package com.capgemini.heskuelita.beans;
 
 import java.util.Set;
-//import org.joda.time.LocalDate;
+import java.time.*;
 
 public class OfferCourse extends Component{
 
@@ -9,8 +9,8 @@ public class OfferCourse extends Component{
 	private Teacher teacher;
 	private Set<Student> students;
 	private Classroom classroom;
-//	private LocalDate date;
-//	private LocalTime time;
+	private LocalDate date;
+	private LocalTime time;
 	
 	public OfferCourse(Course course, Teacher teacher, Classroom classroom){
 		this.course= course;
@@ -57,6 +57,23 @@ public class OfferCourse extends Component{
 	public void setClassroom(Classroom classroom) {
 		this.classroom = classroom;
 	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
+	public LocalTime getTime() {
+		return time;
+	}
+
+	public void setTime(LocalTime time) {
+		this.time = time;
+	}
+	
 	
 	
 	

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class DAOStudent {
+public class DAOStudentWithCollections {
 	
 	private static final List<Student> students= new ArrayList<Student>();
 	

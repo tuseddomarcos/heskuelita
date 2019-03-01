@@ -8,7 +8,7 @@ public class AppDao {
 
 	public static void main(String[] args) {
 
-		DAOStudent dao= new DAOStudent();
+		DAOStudentWithCollections dao= new DAOStudentWithCollections();
 		dao.cargarDatos();
 		Scanner in= new Scanner(System.in);
 		

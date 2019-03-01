@@ -1,5 +1,7 @@
 package com.capgemini.heskuelita.beans;
-//import org.joda.time.LocalDate;
+
+import java.time.LocalDate;
+
 
 public class Person extends Component{
 
@@ -10,11 +12,7 @@ public class Person extends Component{
 	private String email;
 	private String password;
 	private char gender;
-    private String securityQuestion;
-	private String securityAnswer;
-	
-	//si es que usamos joda time con maven
-	//private LocalDate birthdate; 
+	private LocalDate birthdate; 
 	
 	
 	public Person(String firstName, String lastName, int dni, char gender) {
@@ -48,22 +46,6 @@ public class Person extends Component{
 		this.password = password;
 	}
 
-	public String getSecurityQuestion() {
-		return securityQuestion;
-	}
-
-	public void setSecurityQuestion(String securityQuestion) {
-		this.securityQuestion = securityQuestion;
-	}
-
-	public String getSecurityAnswer() {
-		return securityAnswer;
-	}
-
-	public void setSecurityAnswer(String securityAnswer) {
-		this.securityAnswer = securityAnswer;
-	}
-
 	public String getFirstName() {
 		return firstName;
 	}
@@ -79,9 +61,14 @@ public class Person extends Component{
 	public char getGender() {
 		return gender;
 	}
-	
-	
-	
+
+	public LocalDate getBirthdate() {
+		return birthdate;
+	}
+
+	public void setBirthdate(LocalDate birthdate) {
+		this.birthdate = birthdate;
+	}
 	
 	
 }
