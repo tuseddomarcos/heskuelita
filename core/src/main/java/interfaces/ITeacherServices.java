@@ -1,6 +1,8 @@
-package beans;
+package interfaces;
 
 import java.util.ArrayList;
+
+import beans.Teacher;
 
 public interface ITeacherServices {
 	
@@ -8,9 +10,9 @@ public interface ITeacherServices {
 	
 	public void deleteTeacher(Teacher aTeacher) ;
 	
-	public void deleteTeacherByDNI(int dni) ;
+	public void deleteTeacherByIdentification(int identification) ;
 	
-	public Teacher findByDNI(int dni) ;
+	public Teacher findByIdentification(int identification) ;
 	
 	public Teacher findByCourse(int course) ;
 	

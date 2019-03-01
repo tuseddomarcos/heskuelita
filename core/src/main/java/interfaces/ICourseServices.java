@@ -1,7 +1,9 @@
-package beans;
+package interfaces;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+
+import beans.Course;
 
 public interface ICourseServices {
 	
