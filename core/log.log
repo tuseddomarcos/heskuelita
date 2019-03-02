@@ -411,3 +411,185 @@
 2019-03-02 14:59:03 INFO  ConectionPostgre:68 - student     successfully loaded
 2019-03-02 14:59:03 INFO  ConectionPostgre:147 - 5    
 2019-03-02 14:59:03 DEBUG ConectionPostgre:134 - Connected to finalized database
+2019-03-02 15:47:42 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:47:42 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:47:44 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:47:44 INFO  ConectionPostgre:147 - 6 Andres Petrizzo
+2019-03-02 15:47:44 DEBUG ConectionPostgre:134 - Connected to finalized database
+2019-03-02 15:47:56 DEBUG ConectionPostgre:37 - Connected to database
+2019-03-02 15:47:56 INFO  ConectionPostgre:67 - student Andres Petrizzo successfully loaded
+2019-03-02 15:47:56 INFO  ConectionPostgre:146 - 7 Andres Petrizzo
+2019-03-02 15:47:56 DEBUG ConectionPostgre:133 - Connected to finalized database
+2019-03-02 15:51:54 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:51:55 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:51:55 INFO  ConectionPostgre:149 - 8 Andres Petrizzo
+2019-03-02 15:51:55 DEBUG ConectionPostgre:136 - Connected to finalized database
+2019-03-02 15:53:31 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:53:32 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:53:45 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:53:45 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:53:46 INFO  ConectionPostgre:149 - 10 Andres Petrizzo
+2019-03-02 15:53:46 DEBUG ConectionPostgre:136 - Connected to finalized database
+2019-03-02 15:54:00 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:54:00 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:54:01 DEBUG ConectionPostgre:136 - Connected to finalized database
+2019-03-02 15:57:32 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:57:33 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:57:33 INFO  ConectionPostgre:68 - student Andres P successfully loaded
+2019-03-02 15:57:33 INFO  ConectionPostgre:68 - student Carlos Petrizzo successfully loaded
+2019-03-02 15:57:33 INFO  ConectionPostgre:68 - student Andres Victor successfully loaded
+2019-03-02 15:57:33 DEBUG ConectionPostgre:135 - Connected to finalized database
+2019-03-02 15:58:09 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:58:09 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:58:09 INFO  ConectionPostgre:68 - student Andres P successfully loaded
+2019-03-02 15:58:10 INFO  ConectionPostgre:68 - student Carlos Petrizzo successfully loaded
+2019-03-02 15:58:10 INFO  ConectionPostgre:68 - student Andres Victor successfully loaded
+2019-03-02 15:58:10 INFO  ConectionPostgre:147 - 16 Andres Petrizzo
+2019-03-02 15:58:10 INFO  ConectionPostgre:147 - 17 Andres P
+2019-03-02 15:58:10 INFO  ConectionPostgre:147 - 19 Andres Victor
+2019-03-02 15:58:10 DEBUG ConectionPostgre:134 - Connected to finalized database
+2019-03-02 15:58:42 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 15:58:43 INFO  ConectionPostgre:68 - student Andres Petrizzo successfully loaded
+2019-03-02 15:58:43 INFO  ConectionPostgre:68 - student Andres P successfully loaded
+2019-03-02 15:58:43 INFO  ConectionPostgre:68 - student Carlos Petrizzo successfully loaded
+2019-03-02 15:58:43 INFO  ConectionPostgre:68 - student Andres Victor successfully loaded
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 16 Andres Petrizzo
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 17 Andres P
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 19 Andres Victor
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 20 Andres Petrizzo
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 21 Andres P
+2019-03-02 15:58:43 INFO  ConectionPostgre:147 - 23 Andres Victor
+2019-03-02 15:58:43 DEBUG ConectionPostgre:134 - Connected to finalized database
+2019-03-02 16:17:35 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:17:37 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:17:37 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:17:37 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:17:37 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:25:03 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:25:04 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:25:05 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:25:05 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:25:05 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:25:05 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:25:14 INFO  ConectionPostgre:90 - Ingrese el dato...
+2019-03-02 16:25:42 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:25:42 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:25:42 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:25:42 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:25:42 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:25:42 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:25:47 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:26:57 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:26:59 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:26:59 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:27:00 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:27:00 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:27:00 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:27:02 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:29:15 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:29:17 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:29:17 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:29:17 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:29:17 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:29:17 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:29:18 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:31:11 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:31:12 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:31:12 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:31:12 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:31:12 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:31:12 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:31:16 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:32:59 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:33:00 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:33:00 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:33:00 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:33:00 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:33:00 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:33:07 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:33:07 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:33:07 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:33:08 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:33:08 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:33:08 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:33:11 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 16 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 17 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 19 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 20 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 21 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 23 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 24 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 25 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 27 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 28 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 29 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 31 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 32 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 33 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 35 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 36 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 37 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 39 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 40 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 41 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 43 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 44 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 45 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 47 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 48 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 49 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 51 Andres Victor
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 52 Andres Petrizzo
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 53 Andres P
+2019-03-02 16:33:12 INFO  ConectionPostgre:174 - 55 Andres Victor
+2019-03-02 16:33:12 DEBUG ConectionPostgre:161 - Connected to finalized database
+2019-03-02 16:34:36 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:34:37 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:34:37 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:34:37 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:34:37 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:34:37 INFO  ConectionPostgre:82 - Filter by:/n1) Name2) Last Name3) ID4) Email
+2019-03-02 16:34:41 INFO  ConectionPostgre:91 - Ingrese el dato...
+2019-03-02 16:36:07 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-02 16:36:07 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-02 16:36:07 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-02 16:36:08 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-02 16:36:08 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 16 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 17 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 19 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 20 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 21 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 23 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 24 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 25 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 27 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 28 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 29 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 31 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 32 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 33 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 35 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 36 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 37 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 39 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 40 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 41 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 43 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 44 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 45 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 47 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 48 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 49 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 51 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 52 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 53 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 55 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 56 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 57 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 59 Andres Victor
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 60 Andres Petrizzo
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 61 Andres P
+2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 63 Andres Victor
+2019-03-02 16:36:08 DEBUG ConectionPostgre:135 - Connected to finalized database

@@ -9,7 +9,10 @@ public class program {
 		IConectionServer a=n.getConection("Postgre");
 		
 		a.Setup();
-		a.Create(" ", " ", " ", 0, 0, " ", " ", 0, 0, " ");
+		a.Create("Andres", "Petrizzo", " ", 0, 0, " ", " ", 0, 0, " ");
+		a.Create("Andres", "P", " ", 0, 0, " ", " ", 0, 0, " ");
+		a.Create("Carlos", "Petrizzo", " ", 0, 0, " ", " ", 0, 0, " ");
+		a.Create("Andres", "Victor", " ", 0, 0, " ", " ", 0, 0, " ");
 		a.Read();
 		a.Destroy();
 		

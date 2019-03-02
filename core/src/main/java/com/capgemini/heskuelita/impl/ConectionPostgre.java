@@ -4,22 +4,24 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-
 import core.com.capgemini.heskuelita.service.IConectionServer;
+import core.com.capgemini.heskuelita.service.ISearchService;
 
 public class ConectionPostgre implements IConectionServer{
 	
-protected BasicDataSource dataSource = new BasicDataSource();
+	private Scanner in=new Scanner(System.in);
+	
+	protected BasicDataSource dataSource = new BasicDataSource();
 	
 	// Logger object.
 	protected static final Logger logger = Logger.getLogger (ConectionPostgre.class);
 	
 	public ConectionPostgre() {
-		Setup();
 	} 
  
  
@@ -75,16 +77,15 @@ protected BasicDataSource dataSource = new BasicDataSource();
         }
 	}
 
-	public void Read() {
+	public void Read() { 
+		
 		try {
-
-            Statement stm = this.dataSource.getConnection ().createStatement ();
-
             // Result set get the result of the SQL query
-            ResultSet resultSet = stm.executeQuery ("SELECT * from student");
+		  Statement stm = dataSource.getConnection ().createStatement ();
+          ResultSet resultSet = stm.executeQuery ("SELECT * from student where stu_name = 'Andres'");
 
             // Print the messages.
-            writeResult (resultSet);
+          writeResult (resultSet);
 
         } catch (Exception e) {
 
