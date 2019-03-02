@@ -5,6 +5,6 @@ import java.sql.SQLException;
 
 public interface IConectionServer {
 	public void Setup () throws Exception;
-	
-	void writeResult (ResultSet rs) throws SQLException;
+	public void Destroy () throws Exception;
+
 }

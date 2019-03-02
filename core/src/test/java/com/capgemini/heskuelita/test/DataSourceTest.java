@@ -2,6 +2,11 @@ package com.capgemini.heskuelita.test;
 
 import org.junit.*;
 
+import com.capgemini.heskuelita.impl.ConectionFactory;
+import com.capgemini.heskuelita.impl.ConectionPostgre;
+
+import core.com.capgemini.heskuelita.service.IConectionServer;
+
 import java.sql.*;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.log4j.Logger;
@@ -10,6 +15,8 @@ import static org.apache.commons.lang3.RandomStringUtils.*;
 public class DataSourceTest {
 	
 	private BasicDataSource dataSource;
+	
+	private ConectionFactory newConection=new ConectionFactory();
 
 
 	// Logger object.
@@ -140,6 +147,24 @@ public class DataSourceTest {
         	logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
 
         }
+    }
+    
+    @Test
+    public void TestConectionFactory() throws Exception {
+    	
+    	//a es el valor a comparar, b es el valor esperado;
+    	IConectionServer a = newConection.getConection("Postgre");
+    	IConectionServer b = new ConectionPostgre();
+    	
+    	//¿Por qué solo me funciona con getClass y no solo con .equals
+    	if (a.getClass().equals(b.getClass())) {
+    		logger.info("OK");
+    		
+    		//Probando metodos
+    		a.Setup();
+        	a.Destroy();
+    	}
+    	
     }
     
     @After

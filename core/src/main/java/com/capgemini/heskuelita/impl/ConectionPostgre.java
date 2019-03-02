@@ -12,6 +12,11 @@ import core.com.capgemini.heskuelita.service.IConectionServer;
 
 public class ConectionPostgre extends Server implements IConectionServer{
 	
+	public ConectionPostgre() {
+		
+	}
+
+
 	public void Setup() {
 		try {
 			// Create a new Datasource.

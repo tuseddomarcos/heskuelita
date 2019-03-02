@@ -8,6 +8,11 @@ import core.com.capgemini.heskuelita.service.IConectionServer;
 
 public class ConectionMySQL extends Server implements IConectionServer{
 	
+	public ConectionMySQL() {
+		
+	}
+
+
 	public void Setup() {
 		
 	}
