@@ -6,7 +6,11 @@ import java.sql.SQLException;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.log4j.Logger;
 
-public abstract class Server {
+import core.com.capgemini.heskuelita.service.IConectionServer;
+
+public abstract class Server implements IConectionServer{
+	
+	//Medodos y atributos comunes a las BBDD
 	
 	protected BasicDataSource dataSource = new BasicDataSource();
 	

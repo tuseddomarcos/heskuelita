@@ -364,3 +364,10 @@
 2019-03-02 10:30:05 DEBUG DataSourceTest:172 - Connected to finalized database
 2019-03-02 10:30:05 DEBUG DataSourceTest:40 - Connected to database
 2019-03-02 10:30:06 DEBUG DataSourceTest:172 - Connected to finalized database
+2019-03-02 12:10:40 DEBUG Server:32 - Connected to database
+2019-03-02 12:20:24 DEBUG Server:32 - Connected to database
+2019-03-02 12:20:26 INFO  Server:63 - student     successfully loaded
+2019-03-02 12:23:11 DEBUG Server:32 - Connected to database
+2019-03-02 12:26:01 DEBUG Server:32 - Connected to database
+2019-03-02 12:26:02 INFO  Server:63 - student Andres Petrizzo successfully loaded
+2019-03-02 12:26:02 DEBUG Server:129 - Connected to finalized database

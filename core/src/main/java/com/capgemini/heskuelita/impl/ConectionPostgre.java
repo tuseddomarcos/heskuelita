@@ -8,13 +8,11 @@ import java.sql.Statement;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.junit.Assert;
 
-import core.com.capgemini.heskuelita.service.IConectionServer;
-
-public class ConectionPostgre extends Server implements IConectionServer{
+public class ConectionPostgre extends Server{
 	
 	public ConectionPostgre() {
 		
-	}
+	} 
 
 
 	public void Setup() {
@@ -37,7 +35,7 @@ public class ConectionPostgre extends Server implements IConectionServer{
 		}
 		
 	}
-	
+	 
 	
 	public void Create(String name, String last_name, String doc_type, int doc_num, int phone, String sex,
 			String screet, int screet_number, int zip_code, String email) throws Exception {

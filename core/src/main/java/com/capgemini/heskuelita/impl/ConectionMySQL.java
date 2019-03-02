@@ -12,7 +12,6 @@ public class ConectionMySQL extends Server implements IConectionServer{
 		
 	}
 
-
 	public void Setup() {
 		
 	}

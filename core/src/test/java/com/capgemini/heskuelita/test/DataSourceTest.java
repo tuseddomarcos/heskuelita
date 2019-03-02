@@ -18,7 +18,6 @@ public class DataSourceTest {
 	
 	private ConectionFactory newConection=new ConectionFactory();
 
-
 	// Logger object.
 	public static final Logger logger = Logger.getLogger (DataSourceTest.class);
 
@@ -36,8 +35,6 @@ public class DataSourceTest {
 	        dataSource.setMinIdle (5);
 	        dataSource.setMaxIdle (10);
 	        dataSource.setMaxOpenPreparedStatements (100);
-	        
-	        logger.debug("Connected to database");
 	        
 	         
 		}catch (Exception e){
@@ -171,7 +168,6 @@ public class DataSourceTest {
     public void destroy () throws Exception {
 
         this.dataSource.close ();
-        logger.debug("Connected to finalized database");
     }
 
 }
