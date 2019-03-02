@@ -371,3 +371,43 @@
 2019-03-02 12:26:01 DEBUG Server:32 - Connected to database
 2019-03-02 12:26:02 INFO  Server:63 - student Andres Petrizzo successfully loaded
 2019-03-02 12:26:02 DEBUG Server:129 - Connected to finalized database
+2019-03-02 13:17:37 DEBUG Server:30 - Connected to database
+2019-03-02 13:17:38 INFO  Server:142 - 2 Andres Petrizzo
+2019-03-02 13:17:38 DEBUG Server:127 - Connected to finalized database
+2019-03-02 13:42:36 DEBUG Server:30 - Connected to database
+2019-03-02 13:52:36 DEBUG Server:28 - Connected to database
+2019-03-02 13:55:10 DEBUG Server:30 - Connected to database
+2019-03-02 13:59:04 INFO  DataSourceTest:145 - 2 Andres Petrizzo
+2019-03-02 13:59:04 INFO  DataSourceTest:159 - OK
+2019-03-02 13:59:04 DEBUG Server:30 - Connected to database
+2019-03-02 13:59:04 DEBUG Server:127 - Connected to finalized database
+2019-03-02 14:03:03 INFO  DataSourceTest:159 - OK
+2019-03-02 14:03:03 DEBUG Server:30 - Connected to database
+2019-03-02 14:03:03 DEBUG Server:127 - Connected to finalized database
+2019-03-02 14:04:05 DEBUG Server:30 - Connected to database
+2019-03-02 14:05:35 DEBUG Server:30 - Connected to database
+2019-03-02 14:06:55 DEBUG Server:30 - Connected to database
+2019-03-02 14:09:54 DEBUG Server:30 - Connected to database
+2019-03-02 14:10:46 DEBUG Server:30 - Connected to database
+2019-03-02 14:12:34 DEBUG Server:30 - Connected to database
+2019-03-02 14:27:06 DEBUG Server:30 - Connected to database
+2019-03-02 14:28:00 DEBUG Server:30 - Connected to database
+2019-03-02 14:28:42 DEBUG Server:30 - Connected to database
+2019-03-02 14:29:21 DEBUG Server:30 - Connected to database
+2019-03-02 14:32:07 DEBUG Server:30 - Connected to database
+2019-03-02 14:34:26 DEBUG Server:30 - Connected to database
+2019-03-02 14:35:08 DEBUG Server:30 - Connected to database
+2019-03-02 14:35:12 INFO  Server:56 - student Andres Petrizzo successfully loaded
+2019-03-02 14:36:39 DEBUG Server:30 - Connected to database
+2019-03-02 14:37:01 DEBUG Server:30 - Connected to database
+2019-03-02 14:37:07 INFO  Server:56 - student Andres Petrizzo successfully loaded
+2019-03-02 14:39:21 DEBUG Server:30 - Connected to database
+2019-03-02 14:39:25 INFO  Server:56 - student Andres Petrizzo successfully loaded
+2019-03-02 14:40:00 DEBUG Server:30 - Connected to database
+2019-03-02 14:40:03 INFO  Server:56 - student Andres Petrizzo successfully loaded
+2019-03-02 14:40:03 DEBUG Server:93 - Connected to finalized database
+2019-03-02 14:59:02 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 14:59:02 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-02 14:59:03 INFO  ConectionPostgre:68 - student     successfully loaded
+2019-03-02 14:59:03 INFO  ConectionPostgre:147 - 5    
+2019-03-02 14:59:03 DEBUG ConectionPostgre:134 - Connected to finalized database

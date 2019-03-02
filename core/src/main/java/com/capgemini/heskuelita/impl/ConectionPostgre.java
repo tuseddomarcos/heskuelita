@@ -6,15 +6,23 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import org.apache.commons.dbcp2.BasicDataSource;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 
-public class ConectionPostgre extends Server{
+import core.com.capgemini.heskuelita.service.IConectionServer;
+
+public class ConectionPostgre implements IConectionServer{
+	
+protected BasicDataSource dataSource = new BasicDataSource();
+	
+	// Logger object.
+	protected static final Logger logger = Logger.getLogger (ConectionPostgre.class);
 	
 	public ConectionPostgre() {
-		
+		Setup();
 	} 
-
-
+ 
+ 
 	public void Setup() {
 		try {
 			// Create a new Datasource.
@@ -29,14 +37,13 @@ public class ConectionPostgre extends Server{
 	        
 	        logger.debug("Connected to database");
 	        
-	         
+	          
 		}catch (Exception e){
 			
 		}
 		
 	}
 	 
-	
 	public void Create(String name, String last_name, String doc_type, int doc_num, int phone, String sex,
 			String screet, int screet_number, int zip_code, String email) throws Exception {
 
@@ -127,23 +134,17 @@ public class ConectionPostgre extends Server{
         logger.debug("Connected to finalized database");
 		
 	}
+	
+	private void writeResult (ResultSet rs) throws SQLException{
+		// ResultSet is initially before the first data set
+		while (rs.next ()) {
 
+			// It is possible to get the columns via name
+			// also possible to get the columns via the column number
+			// which starts at 1
+			// e.g. resultSet.getSTring (2);
 
-	public void writeResult(ResultSet rs) throws SQLException {
-
-        // ResultSet is initially before the first data set
-        while (rs.next ()) {
-
-            // It is possible to get the columns via name
-            // also possible to get the columns via the column number
-            // which starts at 1
-            // e.g. resultSet.getSTring (2);
-        	
-        	logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
-
-        }
-		
+			logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
+		}
 	}
-
-
 }

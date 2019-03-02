@@ -156,7 +156,7 @@ public class DataSourceTest {
     	//¿Por qué solo me funciona con getClass y no solo con .equals
     	if (a.getClass().equals(b.getClass())) {
     		logger.info("OK");
-    		
+    		 
     		//Probando metodos
     		a.Setup();
         	a.Destroy();

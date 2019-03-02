@@ -1,18 +1,20 @@
 package com.capgemini.heskuelita.impl;
 
+import core.com.capgemini.heskuelita.service.IConectionServer;
+
 //Fabrica de BBDD
 
 public class ConectionFactory {
-	private Server server=null;
+	private IConectionServer server=null;
 	
-	public Server getConection(String motor) {
+	public IConectionServer getConection(String motor) {
 		if(motor.equals("MySQL")) {
 			server = new ConectionMySQL();
-		}
+		} 
 		else if(motor.equals("Postgre")) {
 			server = new ConectionPostgre();
 		}
 		 
-		return server;
+		return server; 
 	}
 }
