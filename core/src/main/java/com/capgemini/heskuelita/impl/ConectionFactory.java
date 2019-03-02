@@ -3,7 +3,7 @@ package com.capgemini.heskuelita.impl;
 import core.com.capgemini.heskuelita.service.IConectionServer;
 
 public class ConectionFactory {
-	IConectionServer server=null;
+	private IConectionServer server=null;
 	
 	public IConectionServer getConection(String motor) {
 		if(motor.equals("MySQL")) {

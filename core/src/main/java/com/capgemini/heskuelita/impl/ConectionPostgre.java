@@ -33,7 +33,7 @@ public class ConectionPostgre extends Server implements IConectionServer{
 		
 	}
 	
-
+	
 	public void Create(String name, String last_name, String doc_type, int doc_num, int phone, String sex,
 			String screet, int screet_number, int zip_code, String email) throws Exception {
 
