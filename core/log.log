@@ -1,30 +1,6 @@
-2019-02-27 13:28:54 INFO  DataSourcePractice:32 - First name: Jose Adan
-2019-02-27 13:28:54 INFO  DataSourcePractice:33 - Last name: Nieva
-2019-02-27 13:28:54 INFO  DataSourcePractice:34 - DNI: 37751726
-2019-02-27 13:28:54 INFO  DataSourcePractice:35 - Phone number: 1154158733
-2019-02-27 13:28:54 INFO  DataSourcePractice:36 - Address: Patricio Peralta Ramos 1348
-2019-02-27 13:28:54 INFO  DataSourcePractice:37 - Gender: M
-2019-02-27 14:09:35 INFO  DataSourcePractice:34 - First name: Juan
-2019-02-27 14:09:35 INFO  DataSourcePractice:35 - Last name: Gomez
-2019-02-27 14:09:35 INFO  DataSourcePractice:36 - DNI: 1234567
-2019-02-27 14:09:35 INFO  DataSourcePractice:37 - Phone number: 1234
-2019-02-27 14:09:35 INFO  DataSourcePractice:38 - Address: Bouchard 1234
-2019-02-27 14:09:35 INFO  DataSourcePractice:39 - Gender: M
-2019-02-27 14:38:27 INFO  DataSourcePractice:35 - First name: juan
-2019-02-27 14:38:27 INFO  DataSourcePractice:36 - Last name: gomez
-2019-02-27 14:38:27 INFO  DataSourcePractice:37 - DNI: 1234
-2019-02-27 14:38:27 INFO  DataSourcePractice:38 - Phone number: 12
-2019-02-27 14:38:27 INFO  DataSourcePractice:39 - Address: Bouchard
-2019-02-27 14:38:27 INFO  DataSourcePractice:40 - Gender: M
-2019-02-27 14:40:00 INFO  DataSourcePractice:35 - First name: juan
-2019-02-27 14:40:00 INFO  DataSourcePractice:36 - Last name: gomez
-2019-02-27 14:40:00 INFO  DataSourcePractice:37 - DNI: 1234
-2019-02-27 14:40:00 INFO  DataSourcePractice:38 - Phone number: 12
-2019-02-27 14:40:00 INFO  DataSourcePractice:39 - Address: Bouchard
-2019-02-27 14:40:00 INFO  DataSourcePractice:40 - Gender: M
-2019-02-27 14:40:00 INFO  DataSourcePractice:35 - First name: pepe
-2019-02-27 14:40:00 INFO  DataSourcePractice:36 - Last name: wanchope
-2019-02-27 14:40:00 INFO  DataSourcePractice:37 - DNI: 150000
-2019-02-27 14:40:00 INFO  DataSourcePractice:38 - Phone number: 166666666
-2019-02-27 14:40:00 INFO  DataSourcePractice:39 - Address: 666
-2019-02-27 14:40:00 INFO  DataSourcePractice:40 - Gender: M
+2019-03-03 17:23:44 INFO  InteractionDB:46 - Nombre: raul
+2019-03-03 17:23:44 INFO  InteractionDB:47 - Apellido: sequeira
+2019-03-03 17:23:44 INFO  InteractionDB:48 - Dni: 39444333
+2019-03-03 17:23:44 INFO  InteractionDB:49 - Telefono: 1144447777
+2019-03-03 17:23:44 INFO  InteractionDB:50 - Direccion: 1234 saenz
+2019-03-03 17:23:44 INFO  InteractionDB:51 - Sexo: M
