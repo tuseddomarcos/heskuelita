@@ -11,12 +11,12 @@ public class Course extends Component {
 		super();
 	}
 	
-	public Course(long idCourse, String nameCourse, String description, short duration, short limitPerson ) {
+	public Course(long idCourse, String nameCourse, String description, int duration, int limitPerson ) {
 		super(idCourse);
 		this.nameCourse = nameCourse;
 		this.description = description;
-		this.duration = duration;
-		this.limitPerson = limitPerson;
+		this.duration = (short)duration;
+		this.limitPerson = (short)limitPerson;
 	}
 	
 	
@@ -52,6 +52,7 @@ public class Course extends Component {
 		this.limitPerson = limitPerson;
 	}
 	
-	
-
 }
+
+
+
