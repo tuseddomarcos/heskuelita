@@ -123,7 +123,23 @@ public class InteractionDB {
             e.printStackTrace ();
         }
     }
-
+ 
+    /* 
+      
+       public void showRegisters() {
+		try {
+			Statement stm = this.dataSource.getConnection().createStatement();
+			
+			ResultSet resultSet = stm.executeQuery("SELECT * FROM student");
+			
+			// Muestra los mensajes
+			showresult(resultSet);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+       
+     */
    
     public void modificar () {
 
@@ -152,3 +168,32 @@ public class InteractionDB {
 
   
 }
+
+
+
+/*
+ 
+      //    Pide los datos
+            Scanner entrada = new Scanner(System.in);
+			System.out.println("INTRODUZCA NOMBRE DEL ESTUDIANTE:");
+			String nombre = Execute.entrada.nextLine();
+			System.out.println("INTRODUZCA APELLIDO DEL ESTUDIANTE:");
+			String apellido = Execute.entrada.nextLine();
+			System.out.println("INTRODUZCA DNI DEL ESTUDIANTE:");
+			String dni = Execute.entrada.nextInt();
+			System.out.println("INTRODUZCA TELEFONO DEL ESTUDIANTE:");
+			String telefono = Execute.entrada.nextInt();
+			System.out.println("INTRODUZCA DIRECCION DEL ESTUDIANTE:");
+			String direccion = Execute.entrada.nextLine();
+			System.out.println("INTRODUZCA GENERO DEL ESTUDIANTE (M/F):");
+			String sexo = Execute.entrada.nextLine();
+			
+			pstm.setString (1, nombre);
+            pstm.setString (2, apellido);
+            pstm.setInt (3, dni);
+            pstm.setInt (4, telefono);
+            pstm.setString (5, direccion);
+            pstm.setString (6, sexo);
+ 
+  */
+ 
