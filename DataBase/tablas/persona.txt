@@ -1,0 +1,23 @@
+-- Table: public.persona
+
+-- DROP TABLE public.persona;
+
+CREATE TABLE public.persona
+(
+    id_p integer NOT NULL DEFAULT nextval('persona_seq'::regclass),
+    nombre_p character varying(20) COLLATE pg_catalog."default",
+    apellido_p character varying(20) COLLATE pg_catalog."default",
+    edad_p integer,
+    genero_p character(1) COLLATE pg_catalog."default",
+    "fNacimeinto_p" character varying(10) COLLATE pg_catalog."default",
+    dni_p integer,
+    id_u1 integer,
+    CONSTRAINT persona_pkey PRIMARY KEY (id_p)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.persona
+    OWNER to postgres;

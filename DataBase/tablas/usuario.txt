@@ -1,0 +1,23 @@
+-- Table: public.usuario
+
+-- DROP TABLE public.usuario;
+
+CREATE TABLE public.usuario
+(
+    id_u integer NOT NULL DEFAULT nextval('usuario_seq'::regclass),
+    usuario_u character varying(30) COLLATE pg_catalog."default",
+    clave_u character varying(20) COLLATE pg_catalog."default",
+    id_p3 integer,
+    CONSTRAINT usuario_pkey PRIMARY KEY (id_u),
+    CONSTRAINT fk_p3 FOREIGN KEY (id_p3)
+        REFERENCES public.persona (id_p) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.usuario
+    OWNER to postgres;

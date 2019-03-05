@@ -1,0 +1,18 @@
+-- Table: public.oferta
+
+-- DROP TABLE public.oferta;
+
+CREATE TABLE public.oferta
+(
+    id_o integer NOT NULL DEFAULT nextval('oferta_seq'::regclass),
+    horario_o character varying(20) COLLATE pg_catalog."default",
+    dias_o character varying(20) COLLATE pg_catalog."default",
+    CONSTRAINT ofertas_pkey PRIMARY KEY (id_o)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.oferta
+    OWNER to postgres;

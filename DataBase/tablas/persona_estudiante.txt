@@ -1,0 +1,22 @@
+-- Table: public.persona_estudiante
+
+-- DROP TABLE public.persona_estudiante;
+
+CREATE TABLE public.persona_estudiante
+(
+    id_est integer NOT NULL DEFAULT nextval('persona_estudiante_seq'::regclass),
+    id_p2 integer,
+    anio_est integer,
+    CONSTRAINT persona_estudiante_pkey PRIMARY KEY (id_est),
+    CONSTRAINT fk_per2 FOREIGN KEY (id_p2)
+        REFERENCES public.persona (id_p) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.persona_estudiante
+    OWNER to postgres;

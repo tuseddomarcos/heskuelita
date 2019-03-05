@@ -1,0 +1,22 @@
+-- Table: public.persona_profesor
+
+-- DROP TABLE public.persona_profesor;
+
+CREATE TABLE public.persona_profesor
+(
+    id_prof integer NOT NULL DEFAULT nextval('persona_profesor_seq'::regclass),
+    id_p1 integer,
+    titulo_prof character varying(35) COLLATE pg_catalog."default",
+    CONSTRAINT persona_profesor_pkey PRIMARY KEY (id_prof),
+    CONSTRAINT fk_per1 FOREIGN KEY (id_p1)
+        REFERENCES public.persona (id_p) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.persona_profesor
+    OWNER to postgres;

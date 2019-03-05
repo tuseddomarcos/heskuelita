@@ -1,0 +1,20 @@
+-- Table: public.curso
+
+-- DROP TABLE public.curso;
+
+CREATE TABLE public.curso
+(
+    id_c integer NOT NULL DEFAULT nextval('curso_seq'::regclass),
+    nombre_c character varying(30) COLLATE pg_catalog."default",
+    duracion_c integer,
+    limite_c integer,
+    objetivo_c character varying(50) COLLATE pg_catalog."default",
+    CONSTRAINT curso_pkey PRIMARY KEY (id_c)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.curso
+    OWNER to postgres;

@@ -1,0 +1,18 @@
+-- Table: public.aula
+
+-- DROP TABLE public.aula;
+
+CREATE TABLE public.aula
+(
+    id_au integer NOT NULL DEFAULT nextval('aula_seq'::regclass),
+    num_au integer,
+    capacidad_au integer,
+    CONSTRAINT aula_pkey PRIMARY KEY (id_au)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.aula
+    OWNER to postgres;

@@ -1,0 +1,24 @@
+-- Table: public.curso_oferta
+
+-- DROP TABLE public.curso_oferta;
+
+CREATE TABLE public.curso_oferta
+(
+    id_o1 integer,
+    id_c4 integer,
+    CONSTRAINT fk_c4 FOREIGN KEY (id_c4)
+        REFERENCES public.curso (id_c) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT fk_f1 FOREIGN KEY (id_o1)
+        REFERENCES public.oferta (id_o) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.curso_oferta
+    OWNER to postgres;
