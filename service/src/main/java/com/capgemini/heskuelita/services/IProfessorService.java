@@ -7,7 +7,7 @@ import com.capgemini.heskuelita.beans.ClassRoom;
 import com.capgemini.heskuelita.beans.Course;
 import com.capgemini.heskuelita.beans.Professor;
 
-public interface ITeacherService {
+public interface IProfessorService {
 	
 	
 	public void AddStudent(Professor pProfessor);
