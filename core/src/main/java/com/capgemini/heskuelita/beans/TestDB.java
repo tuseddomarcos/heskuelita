@@ -39,10 +39,7 @@ public static void main(String[] args) {
 	List <String> gmails= students.stream().filter(e->e.getEmail().endsWith("gmail.com")).map( e -> e.getEmail()).collect(Collectors.toList());
 
 	gmails.forEach (System.out::println);
-	
-	System.out.println("Search by DNI:  ");
-	Scanner in= new Scanner (System.in);
-	System.out.println("DNI: "); String dni= in.next();
+
 	
 	
 	
