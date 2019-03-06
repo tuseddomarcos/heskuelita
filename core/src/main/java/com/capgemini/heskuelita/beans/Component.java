@@ -3,7 +3,7 @@ package com.capgemini.heskuelita.beans;
 public class Component {
 
 	//Declaration of component atributes
-	private long id; 
+	private long id = 0; 
 	
 	//Getters and Setters: id
 	public long getId() {
@@ -23,5 +23,5 @@ public class Component {
 		super();
 		this.id = id;
 	}
-	
+
 }

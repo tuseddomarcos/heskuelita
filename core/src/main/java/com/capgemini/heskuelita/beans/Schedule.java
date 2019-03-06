@@ -2,6 +2,7 @@ package com.capgemini.heskuelita.beans;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 
 public class Schedule extends Component {
 	
@@ -16,7 +17,7 @@ public class Schedule extends Component {
 	private LocalTime  endHour;
 	private boolean vacancy = true;		//is there vacancy in this course?
 	private int studentsQuantity;		//quantity of students inscripted 
-	private Student[] student;			//whos inscripted
+	private List<Student> student;		//whos inscripted
 	
 	// Getters and Setters: Course
 	public Course getCourse() {
@@ -99,10 +100,10 @@ public class Schedule extends Component {
 	}	
 	
 	//Getters and Setters: Students
-	public Student[] getStudents() {
+	public List<Student> getStudents() {
 		return student;
 	}
-	public void setStudents(Student[] student) {
+	public void setStudents(List<Student> student) {
 		this.student = student;
 	}	
 	
@@ -112,7 +113,7 @@ public class Schedule extends Component {
 	}
 	// Constructor ALL Schedule atributes 
 	public Schedule (long id, Course course, Professor professor, Classroom classroom, LocalDate startDate, LocalDate endDate, 
-			String days, LocalTime  startHour, LocalTime  endHour, boolean vacancy, int studentsQuantity, Student[] student) {
+			String days, LocalTime  startHour, LocalTime  endHour, boolean vacancy, int studentsQuantity, List<Student> student) {
 		super(id);
 		this.course = course;
 		this.professor = professor;

@@ -1,5 +1,7 @@
 package com.capgemini.heskuelita.beans;
 
+import java.util.List;
+
 public class Course extends Component{
 
 	//Declaretion of Course atributes
@@ -8,9 +10,11 @@ public class Course extends Component{
 	private int duration;
 	private int limitPerson;
 	
-	private boolean active = true; 	//currently existing
-	private Professor[] professor;	//profs que dan esta case
-	private Classroom[] classroom;	//aulas disonibles para esta clase
+	private boolean active = true; 		//currently existing
+	private List<Professor> professor;	//profs que dan esta case
+	private List<Classroom> classroom;	//aulas disonibles para esta clase
+	private List<Student> student;		//students doing this course
+	private String state;				// if profesorr teaching or not-- if student coursing aproved or disaproved
 	
 
 	//Getters and Setters: Name
@@ -54,21 +58,37 @@ public class Course extends Component{
 	}	
 	
 	//Getters and Setters: Professors
-	public Professor[] getProfessor() {
+	public List<Professor> getProfessor() {
 		return professor;
 	}
-	public void setProfessors(Professor[] professor) {
+	public void setProfessors(List<Professor> professor) {
 		this.professor = professor;
 	}	
 	
 	//Getters and Setters: Classrooms
-	public Classroom[] getClassroom() {
+	public List<Classroom> getClassroom() {
 		return classroom;
 	}
-	public void setClassrooms(Classroom[] classroom) {
+	public void setClassroom(List<Classroom> classroom) {
 		this.classroom = classroom;
 	}	
 	
+	//Getters and Setters: Classrooms
+	public List<Student> getStudent() {
+		return student;
+	}
+	public void setStudent(List<Student> student) {
+		this.student = student;
+	}	
+	
+	// Constructor state
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+		
 	//Constructor without atributes
 	public Course () {
 		super();

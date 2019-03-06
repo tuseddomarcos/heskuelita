@@ -1,12 +1,12 @@
 package com.capgemini.heskuelita.beans;
-import java.util.*;
+import java.time.LocalDate;
 
 public class Person extends Component{
 
 	//Declaration of Person atributes
 	private String name; 
 	private String lastName;
-	private Date birthdate;
+	private LocalDate birthdate;
 	private String documentType;
 	private int identification;
 	private int phone;
@@ -32,10 +32,10 @@ public class Person extends Component{
 	}
 	
 	// Getters and Setters: Birthdate
-	public Date getBirthdate() {
+	public LocalDate getBirthdate() {
 		return birthdate;
 	}
-	public void setBirthdate (Date birthdate) {
+	public void setBirthdate (LocalDate birthdate) {
 		this.birthdate = birthdate;
 	}
 	
@@ -101,7 +101,7 @@ public class Person extends Component{
 	}
 	
 	// Constructor ALL Person atributes 
-	public Person(long id, String name, String lastName, Date birthdate, String documentType, 
+	public Person(long id, String name, String lastName, LocalDate birthdate, String documentType, 
 			int identification, int phone, char sex, String city, String adress, int zipcode) {
 		super(id);
 		this.name = name;
