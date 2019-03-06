@@ -1,44 +1,71 @@
 package com.capgemini.heskuelita.beans;
 
-import java.util.Date;
 
-public class Person {
+public abstract class Person extends Component {
 
-	private String Name;
-	private String LastName;
-    private String BirthDay ;
-    private char Sex;
-    private String NumId;
+	private String name;
 	
-    public void setName(String name) {
-		Name = name; }
-
-	public void setLastName(String lastName) {
-		LastName = lastName;}
-
-	public void setBirthDay(String birthDay) {
-		BirthDay = birthDay;}
-
-	public void setSex(char sex) {
-		Sex = sex;}
-
-	public void setNumId(String numId) {
-		NumId = numId;}
-
-public Person (String Name, String LastName, String BirthDay,char Sex, String NumId ){
+	private String lastName;
 	
-    this.Name = Name;
-    this.LastName= LastName;
-    this.BirthDay = BirthDay;
-    this.Sex = Sex;
-    this.NumId= NumId;
-}
+	private String email;
+	
+	private int dni;
+	
+	
+	public Person () {
+		
+		super ();
+	}
 
-public String getName () {return Name;} 
-public String getLastName () {return LastName;}
-public String getBirthDay () {return BirthDay;}
-public char getSex () {return Sex;}
-public String getNumId () {return NumId;}
+	public Person (Long id, String name, String lastName,
+                   String email, int dni) {
+		
+		super (id);
+		
+		this.name     = name;
+		this.lastName = lastName;
+		this.email = email;
+		this.dni   = dni;
+	}
 
 
+	public String getName () {
+
+		return name;
+	}
+
+	public void setName (String name) {
+
+	    this.name = name;
+	}
+
+	public String getLastName () {
+
+	    return lastName;
+	}
+
+	public void setLastName (String lastName) {
+
+	    this.lastName = lastName;
+	}
+
+	public String getEmail () {
+
+	    return email;
+	}
+
+	public void setEmail (String email) {
+
+	    this.email = email;
+	}
+
+	public int getDni () {
+
+		return dni;
+	}
+
+	public void setDni (int dni) {
+
+		this.dni = dni;
+	}
 }
