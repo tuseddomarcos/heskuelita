@@ -1,0 +1,50 @@
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 1
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: POO
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Programacion Orientada a Objetos
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 30
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 2
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: BD
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Base De Datos
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 25
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 40
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 3
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: AMI
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Analisis Matematico I
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 25
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 50
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 4
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: CDI
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Calculo Diferencial e Integral
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 40
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 5
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: IP
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Introduccion a la Programacion
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 30
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 6
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: AyDA
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Analisis y Diseño de Algoritmos
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 40
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 35
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 7
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: EyM
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Electricidad y Magnetismo
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 30
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 8
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: EyAD
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Estructura y Almacenamiento de Datos
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 30
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 9
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: AS
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Arquitectura de Sistemas
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 25
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 50
+2019-03-06 06:42:24 INFO  DAOCourse:36 - User: 10
+2019-03-06 06:42:24 INFO  DAOCourse:37 - Email: MD
+2019-03-06 06:42:24 INFO  DAOCourse:38 - Website: Matematica Discreta
+2019-03-06 06:42:24 INFO  DAOCourse:39 - summary: 35
+2019-03-06 06:42:24 INFO  DAOCourse:40 - Comment: 30
