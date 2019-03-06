@@ -1,12 +1,13 @@
 package com.capgemini.heskuelita.beans;
 
-public class Content {
+public class Content extends Component {
 
-	private int idCont, idCou;
+	private int idCou;
 	private String nameCont, descriptionCont;
 	
 	public Content(int idCont, int idCou, String nameCont, String descriptionCont) {
-		this.idCont = idCont;
+		super(idCont);
+		
 		this.idCou = idCou;
 		this.nameCont = nameCont;
 		this.descriptionCont = descriptionCont;
@@ -14,14 +15,6 @@ public class Content {
 	
 
 	// GETTERS AND SETTERS ----------------------------------------------------
-	public int getIdCont() {
-		return idCont;
-	}
-
-	public void setIdCont(int idCont) {
-		this.idCont = idCont;
-	}
-
 	public int getIdCou() {
 		return idCou;
 	}

@@ -1,12 +1,17 @@
 package com.capgemini.heskuelita.beans;
 
-public class Course {
+public class Course extends Component {
 	
-	private int idCou, duration, limitPerson, idProf;
+	private int duration, limitPerson, idProf;
 	private String nameCou, descriptionCou;
 	
+	public Course() {
+		super();
+	}
+	
 	public Course(int idCou, String nameCou, String descriptionCou, int duration, int limitPerson, int idProf) {
-		this.idCou = idCou;
+		super(idCou);
+		
 		this.nameCou = nameCou;
 		this.descriptionCou = descriptionCou;
 		this.duration = duration;
@@ -16,14 +21,6 @@ public class Course {
 	
 	
 	// GETTERS AND SETTERS ----------------------------------------------------
-	public int getIdCou() {
-		return idCou;
-	}
-
-	public void setIdCou(int idCou) {
-		this.idCou = idCou;
-	}
-
 	public int getDuration() {
 		return duration;
 	}

@@ -2,15 +2,20 @@ package com.capgemini.heskuelita.beans;
 
 import java.util.Date;
 
-public class AcademicOffer {
+public class AcademicOffer extends Component{
 	
-	private int idAo, idCou, classroomNum;
+	private int idCou, classroomNum;
 	private String nameCou, classroomAddress, professor, shift, days;
 	private Date startDate;
 	
+	public AcademicOffer() {
+		super();
+	}
+	
 	public AcademicOffer(int idAo, int idCou, int classroomNum, String nameCou, String classroomAddress,
 			String professor, String shift, String days, Date startDate) {
-		this.idAo = idAo;
+		super(idAo);
+		
 		this.idCou = idCou;
 		this.classroomNum = classroomNum;
 		this.nameCou = nameCou;
@@ -23,14 +28,6 @@ public class AcademicOffer {
 
 	
 	// GETTERS AND SETTERS ----------------------------------------------------
-	public int getIdAo() {
-		return idAo;
-	}
-
-	public void setIdAo(int idAo) {
-		this.idAo = idAo;
-	}
-
 	public int getIdCou() {
 		return idCou;
 	}

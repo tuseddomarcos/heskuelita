@@ -1,11 +1,17 @@
 package com.capgemini.heskuelita.beans;
 
-public class Classroom {
+public class Classroom extends Component {
 	
 	private int classroomNum;
 	private String address, building;
 	
-	public Classroom(int classroomNum, String address, String building) {
+	public Classroom() {
+		super();
+	}
+	
+	public Classroom(int idClassroom, int classroomNum, String address, String building) {
+		super(idClassroom);
+		
 		this.classroomNum = classroomNum;
 		this.address = address;
 		this.building = building;

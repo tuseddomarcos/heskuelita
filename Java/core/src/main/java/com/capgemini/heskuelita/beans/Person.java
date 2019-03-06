@@ -1,22 +1,32 @@
 package com.capgemini.heskuelita.beans;
 
-import java.util.Date;
+//import java.util.Date;
 
-public class Person {
+public abstract class Person extends Component{
 
-	private String name, lastName;
+	private String name, lastName, address;
 	private int dni;
-	private Date birthdate;
+	//private Date birthdate;
 	private char gender;
 	
-	public Person(String name, String lastName, int dni, /*Date birthdate,*/ char gender) {
+	// Necesito el constructor vacio para Hibernate, por lo que lei
+	public Person() {
+		super();
+	}
+	
+	public Person(int idPer, String name, String lastName, int dni, /*Date birthdate,*/ String address, char gender) {
+		super(idPer);
+		
 		this.name = name;
 		this.lastName = lastName;
 		this.dni = dni;
 		//this.birthdate = birthdate;
+		this.address = address;
 		this.gender = gender;
 	}
 
+	
+	// GETTERS AND SETTERS ----------------------------------------------------
 	public int getDni() {
 		return dni;
 	}
@@ -49,6 +59,15 @@ public class Person {
 		this.gender = gender;
 	}
 
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	/*
 	public Date getBirthdate() {
 		return birthdate;
 	}
@@ -56,5 +75,6 @@ public class Person {
 	public void setBirthdate(Date birthdate) {
 		this.birthdate = birthdate;
 	}
+	*/
 	
 }

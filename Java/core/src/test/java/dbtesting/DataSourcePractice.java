@@ -104,12 +104,46 @@ public class DataSourcePractice {
 		}
 	}
 	
-	// Actualiza DNI del estudiante
+	// Actualiza algun dato del estudiante
 	public void updateStudent() {
 		try {
 			Statement stm = this.dataSource.getConnection().createStatement();
 			
-			stm.executeUpdate("UPDATE student SET phone = '1234567'");
+			System.out.println("QUE DATO DESEA ACTUALIZAR?\n1- NOMBRE\n2- APELLIDO\n3- DNI\n4- TELEFONO\n5- DIRECCION\n6- GENERO");
+			int input = Execute.entrada.nextInt();
+			
+			if (input == 1) {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET firstName = " + "'" + dato + "'");
+			} else if (input == 2) {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET lastName = " + "'" + dato + "'");
+			} else if (input == 3) {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET dni = " + "'" + dato + "'");
+			} else if (input == 4) {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET phone = " + "'" + dato + "'");
+			} else if (input == 5) {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET address = " + "'" + dato + "'");
+			} else {
+				Execute.entrada.nextLine();
+				System.out.println("INGRESE EL NUEVO VALOR: ");
+				String dato = Execute.entrada.nextLine();
+				stm.executeUpdate("UPDATE student SET gender = " + "'" + dato + "'");
+			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -152,9 +186,7 @@ public class DataSourcePractice {
 			System.out.println("\n\nDESEA REALIZAR OTRA OPERACION?\n1- Si\n2- No");
 			continuar = Execute.entrada.nextInt();
 			Execute.entrada.nextLine();
-		}
-		
+		}	
 	}
 	
-
 }
