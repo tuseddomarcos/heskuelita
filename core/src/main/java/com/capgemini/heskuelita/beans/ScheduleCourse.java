@@ -1,5 +1,5 @@
 package com.capgemini.heskuelita.beans;
 
-public class ScheduleCourse extends component {
+public class ScheduleCourse extends Component {
 
 }
