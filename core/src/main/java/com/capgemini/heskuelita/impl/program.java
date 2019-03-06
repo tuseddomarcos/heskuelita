@@ -15,7 +15,7 @@ public class program {
 		a.Create("Andres", "Victor", " ", 0, 0, " ", " ", 0, 0, " ");
 		a.Read();
 		a.Destroy();
-		
+		 
 	}
 
 }

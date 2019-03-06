@@ -593,3 +593,426 @@
 2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 61 Andres P
 2019-03-02 16:36:08 INFO  ConectionPostgre:148 - 63 Andres Victor
 2019-03-02 16:36:08 DEBUG ConectionPostgre:135 - Connected to finalized database
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 16 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 17 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 18 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 19 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 20 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 21 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 22 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 23 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 24 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 25 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 26 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 27 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 28 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 29 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 30 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 31 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 32 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 33 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 34 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 35 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 36 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 37 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 38 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 39 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 40 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 41 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 42 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 43 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 44 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 45 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 46 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 47 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 48 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 49 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 50 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 51 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 52 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 53 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 54 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 55 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 56 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 57 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 58 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 59 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 60 Andres Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 61 Andres P
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 62 Carlos Petrizzo
+2019-03-05 18:23:52 INFO  DataSourceTest:144 - 63 Andres Victor
+2019-03-05 18:23:52 INFO  DataSourceTest:158 - OK
+2019-03-05 18:23:52 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:23:52 DEBUG ConectionPostgre:135 - Connected to finalized database
+2019-03-05 18:49:17 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:49:18 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:49:18 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:49:18 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:49:18 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:52:37 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:52:37 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:52:38 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:52:38 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:52:38 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:54:09 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:54:10 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:54:10 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:54:10 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:54:10 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:54:40 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:54:41 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:54:41 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:54:41 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:54:41 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:55:15 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:55:15 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:55:15 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:55:15 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:55:15 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:55:28 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:55:28 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:55:28 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:55:28 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:55:29 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:55:41 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:55:41 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:55:42 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:55:42 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:55:42 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:56:42 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:56:43 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:56:43 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:56:43 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:56:43 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 65 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 66 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 67 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 68 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 69 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 70 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 71 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 72 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 73 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 74 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 75 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 76 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 77 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 78 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 79 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 80 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 81 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 82 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 83 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 84 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 85 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 86 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 87 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 88 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 89 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 90 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 91 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 92 Andres Victor
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 93 Andres Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 94 Andres P
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 95 Carlos Petrizzo
+2019-03-05 18:56:44 INFO  ReadImplABS:52 - 96 Andres Victor
+2019-03-05 18:56:44 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-05 18:57:30 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:57:30 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:57:31 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:57:31 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:57:31 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 18:59:09 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 18:59:10 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 18:59:10 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 18:59:10 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 18:59:10 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 19:00:48 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 19:00:48 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 19:00:48 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 19:00:48 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 19:00:49 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 19:01:09 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 19:01:09 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 19:01:09 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 19:01:10 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 19:01:10 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:25:37 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:25:50 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:25:50 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:25:50 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:25:50 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:27:48 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:27:50 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:27:50 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:27:50 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:27:50 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 65
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 66
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 67
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 68
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 69
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 70
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 71
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 72
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 73
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 74
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 75
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 76
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 77
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 78
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 79
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 80
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 81
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 82
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 83
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 84
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 85
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 86
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 87
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 88
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 89
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 90
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 91
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 92
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 93
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 94
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 95
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 96
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 97
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 98
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 99
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 100
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 101
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 102
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 103
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 104
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 105
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 106
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 107
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 108
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 109
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 110
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 111
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 112
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 113
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 114
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 115
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 116
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 117
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 118
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 119
+2019-03-05 22:27:50 INFO  ReadImplABS:52 - 120
+2019-03-05 22:27:50 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-05 22:28:26 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:28:27 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:28:27 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:28:27 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:28:27 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 65 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 66 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 67 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 68 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 69 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 70 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 71 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 72 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 73 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 74 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 75 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 76 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 77 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 78 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 79 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 80 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 81 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 82 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 83 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 84 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 85 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 86 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 87 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 88 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 89 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 90 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 91 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 92 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 93 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 94 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 95 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 96 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 97 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 98 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 99 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 100 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 101 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 102 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 103 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 104 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 105 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 106 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 107 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 108 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 109 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 110 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 111 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 112 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 113 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 114 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 115 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 116 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 117 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 118 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 119 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 120 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 121 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 122 Andres
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 123 Carlos
+2019-03-05 22:28:27 INFO  ReadImplABS:52 - 124 Andres
+2019-03-05 22:28:27 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-05 22:31:18 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:31:19 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:31:19 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:31:19 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:31:19 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:31:40 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:31:41 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:31:41 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:31:41 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:31:41 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:32:02 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:32:03 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:32:03 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:32:03 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:32:03 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 65 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 66 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 67 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 68 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 69 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 70 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 71 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 72 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 73 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 74 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 75 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 76 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 77 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 78 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 79 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 80 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 81 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 82 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 83 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 84 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 85 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 86 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 87 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 88 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 89 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 90 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 91 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 92 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 93 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 94 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 95 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 96 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 97 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 98 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 99 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 100 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 101 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 102 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 103 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 104 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 105 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 106 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 107 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 108 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 109 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 110 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 111 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 112 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 113 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 114 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 115 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 116 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 117 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 118 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 119 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 120 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 121 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 122 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 123 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 124 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 125 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 126 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 127 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 128 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 129 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 130 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 131 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 132 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 133 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 134 Andres
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 135 Carlos
+2019-03-05 22:32:03 INFO  ReadImplABS:52 - 136 Andres
+2019-03-05 22:32:03 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-05 22:32:27 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:32:28 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:32:28 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:32:28 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:32:28 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:35:03 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:35:04 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:35:04 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:35:04 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:35:04 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 67 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 71 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 75 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 79 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 83 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 87 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 91 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 95 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 99 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 103 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 107 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 111 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 115 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 119 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 123 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 127 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 131 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 135 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 139 Carlos
+2019-03-05 22:35:05 INFO  ReadImplABS:52 - 143 Carlos
+2019-03-05 22:35:05 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-05 22:38:44 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-05 22:38:45 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-05 22:38:45 INFO  ConectionPostgre:70 - student Andres P successfully loaded
+2019-03-05 22:38:45 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-05 22:38:45 INFO  ConectionPostgre:70 - student Andres Victor successfully loaded
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 67 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 71 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 75 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 79 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 83 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 87 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 91 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 95 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 99 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 103 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 107 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 111 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 115 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 119 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 123 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 127 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 131 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 135 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 139 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 143 Carlos
+2019-03-05 22:38:45 INFO  ReadImplABS:52 - 147 Carlos
+2019-03-05 22:38:45 DEBUG ConectionPostgre:137 - Connected to finalized database

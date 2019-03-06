@@ -26,7 +26,7 @@ public class ConectionPostgre implements IConectionServer{
  
  
 	public void Setup() {
-		try {
+		try { 
 			// Create a new Datasource.
 	        this.dataSource = new BasicDataSource ();
 
@@ -78,8 +78,10 @@ public class ConectionPostgre implements IConectionServer{
 	}
 
 	public void Read() { 
+		 
+		BuscarPorNombre a=new BuscarPorNombre(this.dataSource, "stu_id, stu_name", "Student", "stu_name='Carlos'"); 
 		
-		try {
+		/*try {
             // Result set get the result of the SQL query
 		  Statement stm = dataSource.getConnection ().createStatement ();
           ResultSet resultSet = stm.executeQuery ("SELECT * from student where stu_name = 'Andres'");
@@ -92,7 +94,7 @@ public class ConectionPostgre implements IConectionServer{
             e.printStackTrace ();
             Assert.assertTrue ("Failure executing Insert...", e == null);
             
-        }
+        }*/
 		
 	}
 
@@ -136,7 +138,7 @@ public class ConectionPostgre implements IConectionServer{
 		
 	}
 	
-	private void writeResult (ResultSet rs) throws SQLException{
+	/*private void writeResult (ResultSet rs) throws SQLException{
 		// ResultSet is initially before the first data set
 		while (rs.next ()) {
 
@@ -147,5 +149,5 @@ public class ConectionPostgre implements IConectionServer{
 
 			logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
 		}
-	}
+	}*/
 }

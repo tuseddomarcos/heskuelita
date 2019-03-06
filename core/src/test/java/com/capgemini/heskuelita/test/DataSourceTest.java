@@ -24,7 +24,7 @@ public class DataSourceTest {
 
 	@Before
     public void setup () throws Exception {
-
+ 
 		try {
 			// Create a new Datasource.
 	        this.dataSource = new BasicDataSource ();
