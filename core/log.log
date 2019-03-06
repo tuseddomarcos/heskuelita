@@ -1016,3 +1016,49 @@
 2019-03-05 22:38:45 INFO  ReadImplABS:52 - 143 Carlos
 2019-03-05 22:38:45 INFO  ReadImplABS:52 - 147 Carlos
 2019-03-05 22:38:45 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-06 18:28:24 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-06 18:33:54 DEBUG ConectionPostgre:40 - Connected to database
+2019-03-06 18:33:55 INFO  ConectionPostgre:70 - student Andres Petrizzo successfully loaded
+2019-03-06 18:33:55 INFO  ConectionPostgre:70 - student Juan P successfully loaded
+2019-03-06 18:33:55 INFO  ConectionPostgre:70 - student Carlos Petrizzo successfully loaded
+2019-03-06 18:33:55 INFO  ConectionPostgre:70 - student Marta Victor successfully loaded
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 67 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 71 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 75 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 79 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 83 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 87 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 91 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 95 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 99 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 103 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 107 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 111 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 115 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 119 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 123 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 127 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 131 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 135 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 139 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 143 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 147 Carlos
+2019-03-06 18:33:55 INFO  ReadImplABS:52 - 151 Carlos
+2019-03-06 18:33:55 DEBUG ConectionPostgre:137 - Connected to finalized database
+2019-03-06 18:52:09 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-06 18:52:10 INFO  CrudAbstractImpl:37 - student Victor Perez successfully loaded
+2019-03-06 18:53:12 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-06 18:53:12 INFO  CrudAbstractImpl:37 - student Victor Perez successfully loaded
+2019-03-06 18:53:13 INFO  CrudAbstractImpl:78 - 153 Victor
+2019-03-06 18:53:13 INFO  CrudAbstractImpl:78 - 154 Victor
+2019-03-06 18:53:13 DEBUG ConectionPostgre:134 - Connected to finalized database
+2019-03-06 19:10:48 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-06 19:10:48 INFO  CrudAbstractImpl:37 - student Victor Perez successfully loaded
+2019-03-06 19:10:48 INFO  CrudAbstractImpl:94 - 153 Victor
+2019-03-06 19:10:48 INFO  CrudAbstractImpl:94 - 154 Victor
+2019-03-06 19:10:48 INFO  CrudAbstractImpl:94 - 155 Victor
+2019-03-06 19:10:49 DEBUG ConectionPostgre:65 - Connected to finalized database
+2019-03-06 19:15:36 DEBUG ConectionPostgre:38 - Connected to database
+2019-03-06 19:15:37 INFO  CrudAbstractImpl:37 - student Victor Perez successfully loaded
+2019-03-06 19:15:37 INFO  CrudAbstractImpl:106 - 156 Victor
+2019-03-06 19:15:37 DEBUG ConectionPostgre:49 - Connected to finalized database

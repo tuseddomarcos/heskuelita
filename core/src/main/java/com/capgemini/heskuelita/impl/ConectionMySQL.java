@@ -41,43 +41,19 @@ public class ConectionMySQL implements IConectionServer{
 		}
 	}
 
-	public void Create(String name, String last_name, String doc_type, int doc_num, int phone, String sex,
-			String screet, int screet_number, int zip_code, String email) throws Exception {
+	public BasicDataSource getDataSource() {
 		// TODO Auto-generated method stub
-
+		return null;
 	}
 
+	public void setDataSource(BasicDataSource dataSource) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	public void Destroy() throws Exception {
 		// TODO Auto-generated method stub
-
-	}
-
-	public void Read() throws Exception {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void Update() throws Exception {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void Delete() throws Exception {
-		// TODO Auto-generated method stub
-
-	}
-	private void writeResult (ResultSet rs) throws SQLException{
-		// ResultSet is initially before the first data set
-		while (rs.next ()) {
-
-			// It is possible to get the columns via name
-			// also possible to get the columns via the column number
-			// which starts at 1
-			// e.g. resultSet.getSTring (2);
-
-			logger.info(rs.getString (1)+" "+rs.getString (2)+" "+rs.getString (3));
-		}
+		
 	}
 
 
