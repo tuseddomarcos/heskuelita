@@ -28,8 +28,16 @@ public String getName() {
 
 
 
-public void setName(String name) {
-	this.name = name;
+public void setName(String pName) throws Exception {
+		
+	
+        if (pName.trim().length() == 0 || pName.trim().length() >= 50)
+        {
+              throw new Exception("El nombre debe contener entre 1 y 50 caracteres.");
+        }
+
+        this.name = pName.trim();    	
+	
 }
 
 
@@ -40,10 +48,17 @@ public String getLastName() {
 
 
 
-public void setLastName(String lastName) {
-	this.lastName = lastName;
-}
+public void setlastName(String plastName) throws Exception {
+	
+	
+    if (plastName.trim().length() == 0 || plastName.trim().length() >= 50)
+    {
+          throw new Exception("El apellido debe contener entre 1 y 50 caracteres.");
+    }
 
+    this.lastName = plastName.trim();    	
+
+}
 
 
 }

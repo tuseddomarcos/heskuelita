@@ -52,9 +52,15 @@ public class Student extends Person {
 	}
 
 
-	public void setDocNum(String docNum) {
-		this.docNum = docNum;
-	}
+	public void setDocNum(String docNum) throws Exception {
+			
+        if (docNum.trim().length() == 0 || docNum.trim().length() > 15)
+        {
+            throw new Exception("El documento debe contener entre 1 y 15 caracteres.");
+        }
+        this.docNum = docNum.trim();        
+        
+    }
 
 
 	public char getSex() {

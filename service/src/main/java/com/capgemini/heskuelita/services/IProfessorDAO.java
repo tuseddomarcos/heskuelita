@@ -7,12 +7,9 @@ import com.capgemini.heskuelita.beans.ClassRoom;
 import com.capgemini.heskuelita.beans.Course;
 import com.capgemini.heskuelita.beans.Professor;
 
-public interface IProfessorService {
+public interface IProfessorDAO extends DAO {
 	
-	
-	public void AddStudent(Professor pProfessor);
-	
-	public void DeleteStudent(Professor pProfessor);
+	//crud from DAO + extra methods	
 	
 	public ArrayList<Professor> ProfessorByCourse(Professor pProfessor, Course pCourse);
 	

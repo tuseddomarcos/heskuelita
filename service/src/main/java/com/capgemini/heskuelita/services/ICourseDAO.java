@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import com.capgemini.heskuelita.beans.*;
 
 
-public interface ICourseService {
+public interface ICourseDAO extends DAO {
+	
+	//crud from DAO + extra methods 
 	
 	public ArrayList<Course> CourseObjetives (Course pCourse, CourseObjetives pCourseObjetives) ;
 	
