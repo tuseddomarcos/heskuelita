@@ -1,15 +1,17 @@
 package com.capgemini.heskuelita.beens;
 
 public class Course {
-
+	
+	private int Id_Course;
 	private String Name_Course;
 	private int Time_Duration;
 	private int Limit_Person;
 	
 	//Constructor
 	
-	public Course(String name_Course, int time_Duration, int limit_Person) {
+	public Course(int id_Course, String name_Course, int time_Duration, int limit_Person) {
 		super();
+		Id_Course = id_Course;
 		Name_Course = name_Course;
 		Time_Duration = time_Duration;
 		Limit_Person = limit_Person;
@@ -17,6 +19,14 @@ public class Course {
 		
 		//Getters and Setters
 	
+	public int getId_Course() {
+		return Id_Course;
+	}
+
+	public void setId_Course(int id_Course) {
+		Id_Course = id_Course;
+	}
+
 	public String getName_Course() {
 		return Name_Course;
 	}
