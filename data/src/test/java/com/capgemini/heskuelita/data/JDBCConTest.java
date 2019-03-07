@@ -77,15 +77,13 @@ public class JDBCConTest {
 
 	        try {
 
-	            PreparedStatement pstm = this.cnn.prepareStatement ("INSERT INTO person (ID, FIRSTNAME, LASTNAME, GENDER, PHONE) VALUES (?, ?, ?, ?, ?)");
+	            PreparedStatement pstm = this.cnn.prepareStatement ("INSERT INTO person (ID, FIRSTNAME, LASTNAME) VALUES (?, ?, ?)");
 
 	            pstm.setString (1, randomNumeric (10));
 	            //pstm.setString (2, String.format ("%s@gmail.com", randomAlphabetic (10)));
 	            pstm.setString (2, randomAlphabetic (20));
 	            pstm.setString (3, randomAlphabetic (20));
-	            pstm.setString (4, randomAlphanumeric (10));
-	            pstm.setString (5, randomNumeric (20));
-
+	           
 	            // Execute the insert.
 	            int r = pstm.executeUpdate ();
 
