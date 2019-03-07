@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Educacion IT :: Java Web</title>
+    </head>
+    <body>
+
+        <h1>Formulario de inscripción</h1>
+        <hr><P>
+        <form action="HttpServletForm" method="POST" >
+            Nombre: <input type="text" name="name" value="" width="50" />
+            <br><br>
+            Apellido: <input type="text" name="lastName" value="" width="50" />
+            <br><br>
+            Dirección: <input type="text" name="address" value="" width="50" />
+            <br><br>
+            Sexo: Masculino <input type="radio" name="gender" value="masculino" />
+                  Femenino <input type="radio" name="gender" value="femenino" />
+            <br><br>
+            Puesto de trabajo:
+            <SELECT NAME="position">
+                <OPTION VALUE="empty"></OPTION>                
+                <OPTION VALUE="Programador">Programador</OPTION>
+                <OPTION VALUE="Disenador">Diseñador</OPTION>
+                <OPTION VALUE="Analista Funcional">Analista Funcional</OPTION>
+                <OPTION VALUE="Lider de Proyecto">Líder de Proyecto</OPTION>
+            </SELECT>
+            <br><br>
+            Tiene experiencia <input type="checkbox" name="experience" value="si"/>
+            <p>
+            <hr>
+            <p>            
+            <input type="submit" value="Registrarme!">
+        </form>
+    
+    </body>
+</html>
