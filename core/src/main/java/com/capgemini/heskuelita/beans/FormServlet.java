@@ -18,7 +18,7 @@ public class FormServlet extends HttpServlet{
 
         String name =  request.getParameter("name");
 
-        String sex =  request.getParameter("ex");
+        String sex =  request.getParameter("sex");
 
         String email =  request.getParameter("email");
 
@@ -29,6 +29,9 @@ public class FormServlet extends HttpServlet{
 
         logger.debug (String.format ("Request Received [name=%s, sex=%s, email=%s, user=%s, pw=%s",
                 name, sex, email, user, pw));
+        
+        //cargar en la base de datos
+        
         response.sendRedirect ("result.html");
     }
 	
