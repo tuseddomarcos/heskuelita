@@ -35,9 +35,7 @@ public class App {
 		List<String> names= Arrays.asList ("raul.pena@gmail.com", "raul.pena@hotmail.com",
 				 "homer.simpson@gmail.com", "lisa.simpson@yahoo.com", "bart.simpson@gmail.com");
 		
-		List<String> filtrados= names.stream().filter(n -> n.contains("@gmail")).collect(Collectors.toList());
 		
-		filtrados.forEach(n -> System.out.println(n)); 
 		
 		
 	}
