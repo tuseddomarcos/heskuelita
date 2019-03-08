@@ -33,12 +33,11 @@ public class DAOCourse extends DataAccessObject {
             String duration = rs.getString (4);
             String limitPerson = rs.getString (5);
             
-
-            logger.info (String.format ("ID: %s", idCourse));
-            logger.info (String.format ("NAME: %s",nameCourse ));
-            logger.info (String.format ("DESCRIPTION: %s", description));
-            logger.info (String.format ("DUARATION: %s", duration));
-            logger.info (String.format ("LIMIT_PERSON: %s", limitPerson));
+            logger.info("ID COURSE: " + idCourse + " "+
+            			"NAME COURSE: " + nameCourse + " "+
+            			"DESCRIPTION: "+ description+" "+
+            			"DURATION: " + duration +" "+
+            			"LIMIT PERSON: "+ limitPerson);
         }
     }
 	
