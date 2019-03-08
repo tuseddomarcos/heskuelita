@@ -1,7 +1,6 @@
 package com.capgemini.heskuelita.web;
 
 import java.time.LocalDate;
-
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -9,12 +8,13 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.capgemini.heskuelita.beans.Teacher;
+import com.capgemini.heskuelita.data.*;
 
 @WebServlet("/HttpServletForm")
 public class HttpServletForm extends HttpServlet{
 
     private static final Logger logger = LoggerFactory.getLogger (HttpServletForm.class);
-    //private DAOTeacher daoTeacher; bueno noc porque goma no me deja importar
+    private DAOTeacher daoTeacher= new DAOTeacher();
     
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 
@@ -35,6 +35,7 @@ public class HttpServletForm extends HttpServlet{
 		teacher.setPassword(password);
 		teacher.setBirthdate(LocalDate.now());//en el form todavia no hay para seleccionar fecha
 		
+		daoTeacher.insertTeacher(teacher);
 		
 	}
     
