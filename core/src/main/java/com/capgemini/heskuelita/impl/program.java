@@ -1,5 +1,7 @@
 package com.capgemini.heskuelita.impl;
 
+import org.apache.log4j.PropertyConfigurator;
+
 import core.com.capgemini.heskuelita.service.IConectionServer;
 
 public class program {
