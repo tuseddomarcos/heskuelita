@@ -12,24 +12,28 @@
         <artifactId>module</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>service</artifactId>
-    <name>Heskuelita Service Library</name>
+    <artifactId>data</artifactId>
+    <name>Heskuelita Data Library</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.capgemini.heskuelita</groupId>
             <artifactId>core</artifactId>
             <version>1.0.0</version>
         </dependency>
+
         <dependency>
-            <groupId>com.capgemini.heskuelita</groupId>
-            <artifactId>data</artifactId>
-            <version>1.0.0</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
