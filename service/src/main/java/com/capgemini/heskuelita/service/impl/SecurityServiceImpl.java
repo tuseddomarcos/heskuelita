@@ -1,24 +1,34 @@
+
 package com.capgemini.heskuelita.service.impl;
+
+
 import com.capgemini.heskuelita.core.beans.User;
 import com.capgemini.heskuelita.data.IUserDao;
 import com.capgemini.heskuelita.service.ISecurityService;
 import com.capgemini.heskuelita.service.SecurityException;
 
+
 public class SecurityServiceImpl implements ISecurityService {
+
+
     private IUserDao userDao;
 
     public SecurityServiceImpl (IUserDao userDao) {
+
         super ();
+
         this.userDao = userDao;
     }
 
+
     @Override
-    public void login (User user) throws SecurityException { //si este metodo devuelve un User el mail ya no va a sar nulo. tambien hay que cambiar el metodo de la interfaz
+    public void login (User user) throws SecurityException {
 
         try {
-            user = this.userDao.login (user.getUserName(), user.getPassword());
 
+            user = this.userDao.login (user.getUserName(), user.getPassword());
         } catch (Exception e) {
+
             throw new SecurityException(e);
         }
     }

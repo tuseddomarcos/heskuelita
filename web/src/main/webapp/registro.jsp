@@ -28,12 +28,19 @@
 </head>
 
 <body>
+    <form action="registrar" method="post">
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Registrese aqui</h2>
                     <form method="POST">
+
+                    <div class="input-group">
+                              <label class="label">usuario</label>
+                                  <input class="input--style-4" type="text" name="username">
+                              </div>
+
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -84,7 +91,7 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Contraseña</label>
-                                    <input class="input--style-4" type="password" name="contrasenia">
+                                    <input class="input--style-4" type="password" name="pwd">
                                 </div>
                             </div>
                         </div>
@@ -105,10 +112,11 @@
                             <label class="label">Documento</label>
                             <div class="rs-select2 js-select-simple select--no-search">
 
-                                    <input class="input--style-4" type="text" name="documento">
+                                    <input class="input--style-4" type="text" name="identification">
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
+
 
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Enviar</button>
@@ -122,7 +130,7 @@
             </div>
         </div>
     </div>
-
+    </form>
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->

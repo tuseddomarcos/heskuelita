@@ -46,7 +46,7 @@
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Inicio de usuario</h2>
-                    <form method="POST">
+
                         <div class="input-group">
                             <input class="input--style-3" type="text" placeholder="Usuario" name="user">
                         </div>
@@ -61,7 +61,7 @@
                            <a href="registro.jsp">Si no esta registrado ingrese aqui</a>
                          </div>
                       </div>
-                    </form>
+
                 </div>
             </div>
         </div>
