@@ -2,10 +2,15 @@
 package com.capgemini.heskuelita.data;
 
 
-import com.capgemini.heskuelita.core.beans.User;
+import com.capgemini.heskuelita.data.entity.UserAnnotation;
 
 
 public interface IUserDao {
 
-    User login (String userName, String password);
+      UserAnnotation login (String userName, String password);
+
+      void NewUser (String user_name,String password, String email );
+      void FindingAllsUsers();
+      void FinById(int id);
+
 }

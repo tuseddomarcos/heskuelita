@@ -1,51 +1,51 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>User Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form</title>
-
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="Configcss/ConfigcssLogin.css">
 </head>
 <body>
-
-    <div class="main">
-
-        <section class="signup">
-            <!-- <img src="images/signup-bg.jpg" alt=""> -->
-            <div class="container">
-                <div class="signup-content">
-                    <form action= "login" method="post" id="signup-form" class="signup-form">
-                        <h2 class="form-title">Create account</h2>                    
-                        <div class="form-group">
-                            <input type="text" class="form-input" name="user" id="email" placeholder="Your Email"/>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-input" name="pwd" id="password" placeholder="Password"/>
-                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
-                        </div>                                           
-                        <div class="form-group">
-                            <input type="submit" name="submit" id="submit" class="form-submit" value="Login"/>
-                        </div>
+<div class="main">
+    <div class="container">
+        <center>
+            <div class="middle">
+                <div id="login">
+                    <h2 id="etiqueta-h2">User Login</h2>
+                    <form action="login" method="post">
+                        <fieldset class="clearfix">
+                            <p><span class="fa fa-user"></span>
+                                <input type="text"  name="user" Placeholder="User name/email" required>
+                            </p>
+                            <!-- JS because of IE support; better: placeholder="Username" -->
+                            <p><span class="fa fa-lock"></span>
+                                <input type="password" name="password" Placeholder="Password" required>
+                            </p>
+                            <!-- JS because of IE support; better: placeholder="Password" -->
+                            <div>
+                                <span style="width:48%; text-align:left;  display: inline-block; font-size: 17px"><a class="small-text" href="Register_1.jsp">New User</a></span>
+                                <span style="width:50%; text-align:right;  display: inline-block;"><input type="submit" value="Sign In"></span>
+                            </div>
+                        </fieldset>
+                        <div class="clearfix"></div>
                     </form>
-                    <p class="loginhere">
-                        Have already an account ? <a href="#" class="loginhere-link">Create here</a>
-                    </p>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- end login -->
+                <div class="logo">
+                    <img src="Images/logo_white.png" alt="" />
+                    <div class="clearfix"></div>
                 </div>
             </div>
-        </section>
-
+        </center>
     </div>
-
-    <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</div>
+</body>
 </html>
