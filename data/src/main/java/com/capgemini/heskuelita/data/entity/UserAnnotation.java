@@ -4,10 +4,12 @@ package com.capgemini.heskuelita.data.entity;
 import java.util.Date;
 
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlRootElement;
 
 
-@Entity (name =  "User")
+@Entity (name =  "user")
 @Table (name = "users")
+@XmlRootElement
 public class UserAnnotation {
 
     @Id
@@ -65,4 +67,6 @@ public class UserAnnotation {
         this.email = email;
     }
 
+    public void setId(Integer id) {
+    }
 }

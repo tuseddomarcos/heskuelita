@@ -5,7 +5,6 @@ package com.capgemini.heskuelita.service.impl;
 import com.capgemini.heskuelita.data.IUserDao;
 import com.capgemini.heskuelita.data.entity.UserAnnotation;
 import com.capgemini.heskuelita.service.IUserSecurityService;
-import com.capgemini.heskuelita.service.SecurityException;
 
 
 public class UserUserSecurityServiceImpl implements IUserSecurityService {
@@ -36,7 +35,7 @@ public class UserUserSecurityServiceImpl implements IUserSecurityService {
     public void NewUser(UserAnnotation user) throws SecurityException {
 
         try {
-            this.userDao.NewUser(user.getName(),user.getPassword(),user.getEmail());
+            this.userDao.create(user.getName(),user.getPassword(),user.getEmail());
         }catch (Exception e){
             throw new SecurityException(e);
         }

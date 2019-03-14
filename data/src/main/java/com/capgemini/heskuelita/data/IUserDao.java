@@ -10,11 +10,10 @@ import java.util.List;
 public interface IUserDao {
 
       UserAnnotation login (String userName, String password);
-
-      void NewUser (String user_name,String password, String email );
-      List<UserAnnotation> FindingAllsUsers();
-      UserAnnotation FinById(int id);
-      void UpDateUserByName(String name, String password , String email);
-      public  boolean removeUser(UserAnnotation user);
+      void create (String user_name,String password, String email );
+      List<UserAnnotation> findAll();
+      UserAnnotation findById (int id);
+      void update (UserAnnotation user);
+      boolean remove (UserAnnotation us);
 
 }
