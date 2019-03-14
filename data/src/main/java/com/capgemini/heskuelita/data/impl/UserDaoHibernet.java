@@ -131,10 +131,10 @@ public class UserDaoHibernet implements IUserDao {
     }
 
     @Override
-    public void FindingAllsUsers() {
+    public List<UserAnnotation> FindingAllsUsers() {
 
         Session session = null;
-        List<UserAnnotation> users;
+        List<UserAnnotation> users = null;
 
         try {
 
@@ -158,16 +158,16 @@ public class UserDaoHibernet implements IUserDao {
 
         } finally { session.close(); }
 
-
+        return users;
     }
 
     @Override
-    public void FinById(int id) {
+    public UserAnnotation FinById(int id) {
 
         // Get a session.
         Session session = null;
         final int    filter1 = id;
-
+        UserAnnotation user = null;
         try {
 
             logger.info ("Getting a session...");
@@ -186,6 +186,13 @@ public class UserDaoHibernet implements IUserDao {
             logger.info ("Print all user info.");
             list.forEach ( e -> logger.info (e.getName ()));
 
+            for (UserAnnotation us : list){
+                user.setName(us.getName());
+                user.setPassword(us.getPassword());
+                user.setEmail(us.getEmail());
+
+            }
+
         } catch (Exception ex) {
 
             String m = String.format ("Problems executing test %s", ex.getMessage ());
@@ -197,9 +204,52 @@ public class UserDaoHibernet implements IUserDao {
             logger.info ("Closing session...");
             session.close ();
         }
+
+        return user;
     }
 
+    @Override
+    public void UpDateUserByName(String name , String password , String email) {
+        final Session session;
+        Transaction tx = null;
+        final String    filter1 = name;
+
+        try {
+
+            logger.info("Getting a session...");
+            session = sessionFactory.openSession ();
+            tx = session.beginTransaction ();
+            logger.info (String.format ("Finding users by name  [%s] using criteria object.", filter1));
+            Criterion criterion1 = Restrictions.gt ("user_name", filter1);
+            Conjunction andExp = Restrictions.and (criterion1);
+
+            List<UserAnnotation> list = (List<UserAnnotation>) session.createCriteria (UserAnnotation.class).
+                    add (andExp).list ();
+
+            logger.info ("Print all employees info.");
+            list.forEach (e -> {
+
+                logger.info (String.format ("Updating %s ", e.getName ()));
+                e.setName (name);
+                e.setPassword(password);
+                e.setEmail(email);
+                session.save (e);
+            });
+            tx.commit ();
+
+            Assertions.assertFalse (list.isEmpty (), "There are not employees found!!!");
+
+        } catch (Exception e) {
+
+            logger.error (e.getMessage ());
+            Assertions.assertFalse (Boolean.TRUE, "Problems executing the test.");
+        }
+    }
+
+    @Override
+    public boolean removeUser(UserAnnotation user) {
 
 
-
+        return false;
+    }
 }
