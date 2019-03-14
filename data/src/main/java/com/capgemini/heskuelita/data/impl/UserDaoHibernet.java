@@ -68,7 +68,6 @@ public class UserDaoHibernet implements IUserDao {
             LogicalExpression andExp = Restrictions.and (criterion1, criterion2);
             List<UserAnnotation> list = (List<UserAnnotation>) session.createCriteria (UserAnnotation.class).
                     add (andExp).list ();
-
             if(!list.isEmpty()){
                 for (UserAnnotation e : list){
                     us = new UserAnnotation();
@@ -95,7 +94,6 @@ public class UserDaoHibernet implements IUserDao {
         if (us == null) {
             throw new DataException ("Usuario " + userName + " desconocido");
         }
-            destroy();
         return  us;
     }
 
