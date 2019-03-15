@@ -2,10 +2,10 @@
 package com.capgemini.heskuelita.web.servlet;
 
 import com.capgemini.heskuelita.data.entity.UserAnnotation;
-import com.capgemini.heskuelita.data.impl.UserDaoHibernet;
+import com.capgemini.heskuelita.data.impl.UserDaoHibernate;
 import com.capgemini.heskuelita.data.util.HibernateUtil;
 import com.capgemini.heskuelita.service.IUserSecurityService;
-import com.capgemini.heskuelita.service.impl.UserUserSecurityServiceImpl;
+import com.capgemini.heskuelita.service.impl.UserSecurityServiceImpl;
 import org.hibernate.SessionFactory;
 
 import java.io.*;
@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 
         try {
 
-            this.securityService = new UserUserSecurityServiceImpl(new UserDaoHibernet(manager));
+            this.securityService = new UserSecurityServiceImpl(new UserDaoHibernate(manager));
         } catch (Exception e) {
 
             throw new ServletException(e);

@@ -11,23 +11,4 @@ public interface IUserSecurityService {
     void login (UserAnnotation user) throws SecurityException;
     void NewUser(UserAnnotation user) throws  SecurityException;
 
-
-    class SecurityException extends Exception {
-
-
-        public SecurityException() {
-        }
-
-        public SecurityException(String message) {
-            super(message);
-        }
-
-        public SecurityException(String message, Throwable cause) {
-            super(message, cause);
-        }
-
-        public SecurityException(Throwable cause) {
-            super(cause);
-        }
-    }
 }

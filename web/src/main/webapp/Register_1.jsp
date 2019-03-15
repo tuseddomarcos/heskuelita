@@ -29,7 +29,7 @@
     <div class="container register">
         <div class="row">
             <div class="col-md-3 register-left">
-                <img src="Images/logo_white.png" alt="" />
+                <img src="images/logo_white.png" alt="" />
                 <h3>Welcome</h3>
                 <input type="submit" name="" value="Login" />
                 <br/>
@@ -74,7 +74,7 @@
                                         <input type="text" minlength="10" maxlength="10" name="phone_number" class="form-control" placeholder="Your Phone *" value="" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="date" class="form-control" name="birth_date" placeholder="Birth date / dd-mm-yyyy" value="" />
+                                        <input type="date" class="form-control" name="birth_date" placeholder="Birth date" value="" />
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control" name="type_id">

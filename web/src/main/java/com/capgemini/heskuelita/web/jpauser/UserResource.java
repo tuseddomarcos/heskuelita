@@ -4,7 +4,7 @@ package com.capgemini.heskuelita.web.jpauser;
 
 import com.capgemini.heskuelita.data.IUserDao;
 import com.capgemini.heskuelita.data.entity.UserAnnotation;
-import com.capgemini.heskuelita.data.impl.UserDaoHibernet;
+import com.capgemini.heskuelita.data.impl.UserDaoHibernate;
 import com.capgemini.heskuelita.data.util.HibernateUtil;
 import org.hibernate.SessionFactory;
 
@@ -19,7 +19,7 @@ import java.net.URISyntaxException;
 public class UserResource {
 
     SessionFactory manager = HibernateUtil.getSessionFactory();
-	IUserDao userDao = new UserDaoHibernet(manager);
+	IUserDao userDao = new UserDaoHibernate(manager);
 
 
 	public UserResource() {

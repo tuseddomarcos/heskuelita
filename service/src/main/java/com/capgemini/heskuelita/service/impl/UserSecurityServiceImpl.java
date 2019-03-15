@@ -7,12 +7,12 @@ import com.capgemini.heskuelita.data.entity.UserAnnotation;
 import com.capgemini.heskuelita.service.IUserSecurityService;
 
 
-public class UserUserSecurityServiceImpl implements IUserSecurityService {
+public class UserSecurityServiceImpl implements IUserSecurityService {
 
 
     private IUserDao userDao;
 
-    public UserUserSecurityServiceImpl(IUserDao userDao) {
+    public UserSecurityServiceImpl(IUserDao userDao) {
 
         super ();
 
