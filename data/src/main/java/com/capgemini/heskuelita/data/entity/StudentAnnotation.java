@@ -21,7 +21,7 @@ public class StudentAnnotation {
     @Column(name="last_name", length=28, nullable=false)
     private String last_name;
 
-    @Column(name="type_id", nullable=false)
+    @Column(name="type_id", length = 28,nullable=false)
     private String type_id;
 
     @Column(name="number_id", length=28, nullable=false)
@@ -30,8 +30,12 @@ public class StudentAnnotation {
     @Column(name="gender", length=28, nullable=false)
     private String gender;
 
-    @Column(name="phone_number", length=28, nullable=false)
+    @Column(name="phone_number", length=20, nullable=false)
     private String phone_number;
+
+    @OneToOne (mappedBy="users", cascade=CascadeType.ALL)
+    private UserAnnotation user;
+
 
     public StudentAnnotation() {
 
@@ -97,5 +101,13 @@ public class StudentAnnotation {
 
     public void setPhone_number(String phone_number) {
         this.phone_number = phone_number;
+    }
+
+    public UserAnnotation getUser() {
+        return user;
+    }
+
+    public void setUser(UserAnnotation user) {
+        this.user = user;
     }
 }

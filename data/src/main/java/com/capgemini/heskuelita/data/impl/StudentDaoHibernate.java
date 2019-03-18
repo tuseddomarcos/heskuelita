@@ -26,39 +26,6 @@ public class StudentDaoHibernate implements IStudentDao {
     }
 
 
-
-    @Override
-    public void create(String first_name, String last_name, String type_id, String number_id, String gender, String phone_number) {
-
-        Session session = null;
-        Transaction tx = null;
-        try {
-
-            logger.info("Getting a session...");
-            session = sessionFactory.openSession ();
-            tx = session.beginTransaction ();
-
-            // Set the data to save.
-            logger.info(String.format("Creating value to insert... %s , %s , %s .....",  first_name ,  last_name , type_id));
-           StudentAnnotation st = new StudentAnnotation();
-
-            // Save the data.
-            logger.info (String.format ("Saving value %s", st.getFirst_name ()));
-            session.save (st);
-            logger.info (String.format ("Value %s saved!", st.getFirst_name ()));
-
-            tx.commit ();
-
-        } catch (Exception ex) {
-
-            logger.error (ex.getMessage ());
-            tx.rollback ();
-
-        } finally { session.close (); }
-
-
-    }
-
     @Override
     public List<StudentAnnotation> findAll() {
         return null;

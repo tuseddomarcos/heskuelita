@@ -25,7 +25,6 @@ import java.io.IOException;
 public class NewUserServlet extends HttpServlet {
 
     private IUserSecurityService securityServiceUser;
-    private IStuentSecurityService securityServiceStudent;
 
 
     public NewUserServlet(){
@@ -36,7 +35,7 @@ public class NewUserServlet extends HttpServlet {
     public void init (ServletConfig config) throws ServletException {
 
         SessionFactory manager = HibernateUtil.getSessionFactory();
-        SessionFactory manager2 = HibernateUtil.getSessionFactory();
+
 
 
         try {
@@ -45,14 +44,6 @@ public class NewUserServlet extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
             throw new ServletException(e);
-        }
-
-        try{
-              this.securityServiceStudent = new StudentSecurityServiceImpl(new StudentDaoHibernate(manager2));
-        }catch (Exception e){
-            e.printStackTrace();
-            throw new ServletException(e);
-
         }
     }
 
@@ -66,14 +57,13 @@ public class NewUserServlet extends HttpServlet {
         user.setEmail(req.getParameter("email"));
         student.setFirst_name(req.getParameter("first_name"));
         student.setLast_name(req.getParameter("last_name"));
-        student.setType_id(req.getParameter("typo_id"));
+        student.setType_id(req.getParameter("type_id"));
         student.setNumber_id(req.getParameter("number_id"));
         student.setGender(req.getParameter("gender"));
         student.setPhone_number(req.getParameter("phone_number"));
         try {
 
-            this.securityServiceUser.NewUser (user);
-            this.securityServiceStudent.NewStudent(student);
+            this.securityServiceUser.NewUser (user , student);
             HttpSession session = req.getSession ();
             session.setAttribute ("user", user);
 

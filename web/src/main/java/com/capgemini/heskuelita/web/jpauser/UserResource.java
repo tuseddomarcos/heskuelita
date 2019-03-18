@@ -45,7 +45,7 @@ public class UserResource {
     @Consumes ({MediaType.APPLICATION_JSON })
     public Response add (UserAnnotation e) throws URISyntaxException {
 
-        this.userDao.create (e.getName(),e.getPassword(),e.getEmail());
+        //this.userDao.create (e.getName(),e.getPassword(),e.getEmail());
 
         return Response.created (new URI ("/heskuelita/api/UserAnnotation" + e.getId ())).build ();
     }

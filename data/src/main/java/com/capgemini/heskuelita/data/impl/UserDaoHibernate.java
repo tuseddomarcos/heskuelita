@@ -4,6 +4,7 @@ package com.capgemini.heskuelita.data.impl;
 
 import com.capgemini.heskuelita.data.DataException;
 import com.capgemini.heskuelita.data.IUserDao;
+import com.capgemini.heskuelita.data.entity.StudentAnnotation;
 import com.capgemini.heskuelita.data.entity.UserAnnotation;
 import com.capgemini.heskuelita.data.util.HibernateUtil;
 import org.hibernate.Session;
@@ -96,7 +97,7 @@ public class UserDaoHibernate implements IUserDao {
 
 
     @Override
-    public  void create (String user_name, String password, String email){
+    public  void create (String user_name, String password, String email, String first_name, String last_name, String type_id, String number_id, String gender, String phone_number){
 
         Session session = null;
         Transaction tx = null;
@@ -110,10 +111,15 @@ public class UserDaoHibernate implements IUserDao {
             logger.info(String.format("Creating value to insert... %s , %s , %s",  user_name ,  password , email));
             UserAnnotation pt = new UserAnnotation (user_name,password,email);
 
-            // Save the data.
-            logger.info (String.format ("Saving value %s", pt.getName ()));
+            // Save the data user.
             session.save (pt);
             logger.info (String.format ("Value %s saved!", pt.getName ()));
+            // Set the data to save.
+            logger.info(String.format("Creating value to insert... %s , %s , %s .....",  first_name ,  last_name , type_id));
+            StudentAnnotation st = new StudentAnnotation(first_name,last_name,type_id,number_id,gender,phone_number);
+            // Save the data student.
+            logger.info (String.format ("Saving value %s", st.getFirst_name ()));
+            session.save (st);
 
             tx.commit ();
 

@@ -30,8 +30,7 @@
         <div class="row">
             <div class="col-md-3 register-left">
                 <img src="images/logo_white.png" alt="" />
-                <h3>Welcome</h3>
-                <input type="submit" name="" value="Login" />
+                <h2>Welcome</h2>
                 <br/>
             </div>
             <div class="col-md-9 register-right">

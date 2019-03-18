@@ -2,6 +2,8 @@ package com.capgemini.heskuelita.data.entity;
 
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -26,6 +28,10 @@ public class UserAnnotation {
 
     @Column(name="email", nullable=false)
     private String email;
+
+    @OneToMany (mappedBy = "first_name")
+    private Set<StudentAnnotation> student = new HashSet<>();
+
 
     public UserAnnotation() {
 
@@ -68,5 +74,13 @@ public class UserAnnotation {
     }
 
     public void setId(Integer id) {
+    }
+
+    public Set<StudentAnnotation> getStudent() {
+        return student;
+    }
+
+    public void setStudent(Set<StudentAnnotation> student) {
+        this.student = student;
     }
 }
